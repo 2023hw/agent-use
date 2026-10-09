@@ -1,0 +1,112 @@
+{
+  "run_id": "auto-20261009-sceneB",
+  "generated_at": "2026-10-09 09:55:45",
+  "scene": "修复闭环演示（注入坏目标）",
+  "theme": "国庆节到了",
+  "provider": "zhipu",
+  "model": "zhipu / glm-4-flash",
+  "mocked": false,
+  "faults": [
+    "bad_objective"
+  ],
+  "max_steps": 24,
+  "summary": {
+    "stopped_reason": "finish",
+    "n_steps": 10,
+    "tool_calls": 9,
+    "call_sequence": [
+      "get_class_roster",
+      "plan_layering",
+      "draft_objectives",
+      "expand_content",
+      "validate_lesson_plan",
+      "draft_objectives",
+      "validate_lesson_plan",
+      "render_docx",
+      "audit_docx"
+    ],
+    "used_tools": [
+      "get_class_roster",
+      "plan_layering",
+      "draft_objectives",
+      "expand_content",
+      "validate_lesson_plan",
+      "render_docx",
+      "audit_docx"
+    ],
+    "unused_tools": [
+      "search_corpus",
+      "get_child_profile",
+      "get_previous_baseline"
+    ],
+    "validations": [
+      {
+        "step": 5,
+        "passed": false,
+        "fatal_count": 1,
+        "fatal": [
+          "[致命] OBJ_NOT_OBSERVABLE: 目标缺少可观测动词：能进行集体律动活动，感受节日的欢乐气氛"
+        ]
+      },
+      {
+        "step": 7,
+        "passed": true,
+        "fatal_count": 0,
+        "fatal": []
+      }
+    ],
+    "draft_calls": [
+      {
+        "step": 3,
+        "tool": "draft_objectives",
+        "revision_hint": ""
+      },
+      {
+        "step": 4,
+        "tool": "expand_content",
+        "revision_hint": ""
+      },
+      {
+        "step": 6,
+        "tool": "draft_objectives",
+        "revision_hint": "目标缺少可观测动词：能进行集体律动活动，感受节日的欢乐气氛"
+      }
+    ],
+    "repair_observed": true,
+    "audit": {
+      "step": 9,
+      "passed": true,
+      "exit_code": 0,
+      "fail_items": []
+    },
+    "deliverables": [
+      {
+        "path": "C:\\Users\\17093\\WorkBuddy\\2026-09-28-10-57-57\\lessonplan-agent\\data\\_agent_runs\\auto-20261009-sceneB\\认知课《国庆节到了》-火箭班.docx",
+        "size": 23506,
+        "class": "火箭班",
+        "n_children": 28
+      },
+      {
+        "path": "C:\\Users\\17093\\WorkBuddy\\2026-09-28-10-57-57\\lessonplan-agent\\data\\_agent_runs\\auto-20261009-sceneB\\认知课《国庆节到了》-闪电班.docx",
+        "size": 19719,
+        "class": "闪电班",
+        "n_children": 9
+      }
+    ],
+    "success": true,
+    "faults": [
+      "bad_objective"
+    ],
+    "faults_fired": [
+      "bad_objective"
+    ],
+    "elapsed_s": 142.2,
+    "usage": {
+      "prompt": 34095,
+      "completion": 342,
+      "total": 34437,
+      "steps": 10,
+      "tool_calls": 9
+    }
+  }
+}

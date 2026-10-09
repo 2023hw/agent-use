@@ -1,0 +1,91 @@
+{
+  "run_id": "auto-20261009-sceneA",
+  "generated_at": "2026-10-09 09:52:40",
+  "scene": "正常自主编排",
+  "theme": "国庆节到了",
+  "provider": "zhipu",
+  "model": "zhipu / glm-4-flash",
+  "mocked": false,
+  "faults": [],
+  "max_steps": 24,
+  "summary": {
+    "stopped_reason": "finish",
+    "n_steps": 8,
+    "tool_calls": 7,
+    "call_sequence": [
+      "get_class_roster",
+      "plan_layering",
+      "draft_objectives",
+      "expand_content",
+      "validate_lesson_plan",
+      "render_docx",
+      "audit_docx"
+    ],
+    "used_tools": [
+      "get_class_roster",
+      "plan_layering",
+      "draft_objectives",
+      "expand_content",
+      "validate_lesson_plan",
+      "render_docx",
+      "audit_docx"
+    ],
+    "unused_tools": [
+      "search_corpus",
+      "get_child_profile",
+      "get_previous_baseline"
+    ],
+    "validations": [
+      {
+        "step": 5,
+        "passed": true,
+        "fatal_count": 0,
+        "fatal": []
+      }
+    ],
+    "draft_calls": [
+      {
+        "step": 3,
+        "tool": "draft_objectives",
+        "revision_hint": ""
+      },
+      {
+        "step": 4,
+        "tool": "expand_content",
+        "revision_hint": ""
+      }
+    ],
+    "repair_observed": false,
+    "audit": {
+      "step": 7,
+      "passed": true,
+      "exit_code": 0,
+      "fail_items": []
+    },
+    "deliverables": [
+      {
+        "path": "C:\\Users\\17093\\WorkBuddy\\2026-09-28-10-57-57\\lessonplan-agent\\data\\_agent_runs\\auto-20261009-sceneA\\认知课《国庆节到了》-火箭班.docx",
+        "size": 23785,
+        "class": "火箭班",
+        "n_children": 28
+      },
+      {
+        "path": "C:\\Users\\17093\\WorkBuddy\\2026-09-28-10-57-57\\lessonplan-agent\\data\\_agent_runs\\auto-20261009-sceneA\\认知课《国庆节到了》-闪电班.docx",
+        "size": 19993,
+        "class": "闪电班",
+        "n_children": 9
+      }
+    ],
+    "success": true,
+    "faults": [],
+    "faults_fired": [],
+    "elapsed_s": 109.9,
+    "usage": {
+      "prompt": 25368,
+      "completion": 303,
+      "total": 25671,
+      "steps": 8,
+      "tool_calls": 7
+    }
+  }
+}

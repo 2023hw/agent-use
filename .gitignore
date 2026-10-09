@@ -1,0 +1,27 @@
+# API key —— 绝不入库
+.env
+.env.*
+!.env.example
+
+# 隐私数据：真实姓名映射表
+data/private/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+# 归档与临时产物
+data/_archive/
+# P0-2 Agent 工具层的运行产物（每次运行一个目录，可再生）
+data/_agent_runs/
+# M4-4 消融实验的隔离产物（每个臂的中间稿与 docx，体积大、可再生）
+data/_ablation/
+# M4-5 教师盲评的**分组密钥**：公开仓库里留着它等于提前破盲，
+# 评完再取消忽略并归档。材料包其余文件正常入库。
+data/blind-eval/4_分组密钥.md
+*.log
+_dump.log
+_ls.log
+_prev.log

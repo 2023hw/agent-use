@@ -1,0 +1,2036 @@
+{
+  "groups": [
+    {
+      "key": "国庆节到了",
+      "title": "认知课《国庆节到了》",
+      "delivered": true,
+      "ladder_source": "第五周-童心向党(1).docx",
+      "manual_ladder": true,
+      "split_by_class": true,
+      "n_files": 2,
+      "bytes": 43591,
+      "deid": {
+        "files": [
+          {
+            "file": "认知课《国庆节到了》-火箭班.docx",
+            "chars": 6999,
+            "banned_total": 4,
+            "banned_exempt": 4,
+            "banned_body": 0,
+            "name_hits": 0
+          },
+          {
+            "file": "认知课《国庆节到了》-闪电班.docx",
+            "chars": 3952,
+            "banned_total": 4,
+            "banned_exempt": 4,
+            "banned_body": 0,
+            "name_hits": 0
+          }
+        ],
+        "file_count": 2,
+        "files_with_body_banned": 0,
+        "banned_total": 8,
+        "banned_exempt": 8,
+        "banned_body": 0,
+        "name_hits": 0,
+        "chars": 10951,
+        "body_leak_rate": 0.0
+      },
+      "roster": {
+        "rows_total": 37,
+        "unique_codes": 37,
+        "coverage": 1.0,
+        "legal_combos": [
+          "123",
+          "124",
+          "145",
+          "1456"
+        ],
+        "combo_ok": 37,
+        "combo_ok_rate": 1.0,
+        "baseline_ok": 37,
+        "baseline_ok_rate": 1.0,
+        "combo_hist": {
+          "123": 12,
+          "124": 8,
+          "145": 3,
+          "1456": 14
+        },
+        "layer_dist": {
+          "L1": 12,
+          "L2": 8,
+          "L3": 3,
+          "L4": 14
+        },
+        "moves": {
+          "up": 12,
+          "down": 0,
+          "keep": 25,
+          "absent": 3
+        },
+        "rows": [
+          {
+            "file": "认知课《国庆节到了》-火箭班.docx",
+            "code": "S01",
+            "goal": "123",
+            "baseline": "PEP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《国庆节到了》-火箭班.docx",
+            "code": "S02",
+            "goal": "1456",
+            "baseline": "PEPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《国庆节到了》-火箭班.docx",
+            "code": "S03",
+            "goal": "1456",
+            "baseline": "PEPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《国庆节到了》-火箭班.docx",
+            "code": "S04",
+            "goal": "145",
+            "baseline": "PEE",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《国庆节到了》-火箭班.docx",
+            "code": "S05",
+            "goal": "1456",
+            "baseline": "PEPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《国庆节到了》-火箭班.docx",
+            "code": "S06",
+            "goal": "1456",
+            "baseline": "PEPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《国庆节到了》-火箭班.docx",
+            "code": "S07",
+            "goal": "1456",
+            "baseline": "PPPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《国庆节到了》-火箭班.docx",
+            "code": "S08",
+            "goal": "123",
+            "baseline": "PEE",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《国庆节到了》-火箭班.docx",
+            "code": "S09",
+            "goal": "1456",
+            "baseline": "P   PPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《国庆节到了》-火箭班.docx",
+            "code": "S10",
+            "goal": "1456",
+            "baseline": "PPPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《国庆节到了》-火箭班.docx",
+            "code": "S11",
+            "goal": "123",
+            "baseline": "PEE",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《国庆节到了》-火箭班.docx",
+            "code": "S12",
+            "goal": "123",
+            "baseline": "PEE",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《国庆节到了》-火箭班.docx",
+            "code": "S13",
+            "goal": "124",
+            "baseline": "PEE",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《国庆节到了》-火箭班.docx",
+            "code": "S14",
+            "goal": "1456",
+            "baseline": "PPPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《国庆节到了》-火箭班.docx",
+            "code": "S15",
+            "goal": "1456",
+            "baseline": "未参与",
+            "absent": true,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《国庆节到了》-火箭班.docx",
+            "code": "S16",
+            "goal": "123",
+            "baseline": "未参与",
+            "absent": true,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《国庆节到了》-火箭班.docx",
+            "code": "S17",
+            "goal": "123",
+            "baseline": "PEE",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《国庆节到了》-火箭班.docx",
+            "code": "S18",
+            "goal": "123",
+            "baseline": "PEE",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《国庆节到了》-火箭班.docx",
+            "code": "S19",
+            "goal": "123",
+            "baseline": "PEE",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《国庆节到了》-火箭班.docx",
+            "code": "S20",
+            "goal": "1456",
+            "baseline": "PPPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《国庆节到了》-火箭班.docx",
+            "code": "S21",
+            "goal": "124",
+            "baseline": "PPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《国庆节到了》-火箭班.docx",
+            "code": "S22",
+            "goal": "123",
+            "baseline": "PEE",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《国庆节到了》-火箭班.docx",
+            "code": "S23",
+            "goal": "124",
+            "baseline": "PPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《国庆节到了》-火箭班.docx",
+            "code": "S24",
+            "goal": "123",
+            "baseline": "PEE",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《国庆节到了》-火箭班.docx",
+            "code": "S25",
+            "goal": "124",
+            "baseline": "PPE",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《国庆节到了》-火箭班.docx",
+            "code": "S26",
+            "goal": "145",
+            "baseline": "PPE",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《国庆节到了》-火箭班.docx",
+            "code": "S27",
+            "goal": "124",
+            "baseline": "PPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《国庆节到了》-火箭班.docx",
+            "code": "S28",
+            "goal": "1456",
+            "baseline": "P     PPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《国庆节到了》-闪电班.docx",
+            "code": "S29",
+            "goal": "124",
+            "baseline": "PPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《国庆节到了》-闪电班.docx",
+            "code": "S30",
+            "goal": "1456",
+            "baseline": "PPPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《国庆节到了》-闪电班.docx",
+            "code": "S31",
+            "goal": "123",
+            "baseline": "P P E",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《国庆节到了》-闪电班.docx",
+            "code": "S32",
+            "goal": "124",
+            "baseline": "P P P",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《国庆节到了》-闪电班.docx",
+            "code": "S33",
+            "goal": "124",
+            "baseline": "P P E",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《国庆节到了》-闪电班.docx",
+            "code": "S34",
+            "goal": "1456",
+            "baseline": "PPPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《国庆节到了》-闪电班.docx",
+            "code": "S35",
+            "goal": "145",
+            "baseline": "PPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《国庆节到了》-闪电班.docx",
+            "code": "S36",
+            "goal": "1456",
+            "baseline": "PPPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《国庆节到了》-闪电班.docx",
+            "code": "S37",
+            "goal": "123",
+            "baseline": "未参与",
+            "absent": true,
+            "combo_ok": true,
+            "baseline_ok": true
+          }
+        ]
+      },
+      "audit": {
+        "available": true,
+        "items_pass": 20,
+        "items_fail": 0,
+        "item_total": 20,
+        "all_pass": true,
+        "verdicts": [
+          "PASS",
+          "PASS"
+        ]
+      },
+      "gen": {
+        "errors": 0,
+        "ok": true,
+        "warnings": 0,
+        "error_sample": [],
+        "steps": 7,
+        "scaffold_per_step": 1.14,
+        "cue_coverage": 1.0,
+        "objectives": 8,
+        "alternatives": 4,
+        "individualized_goals": 3,
+        "duration": 30
+      },
+      "steps": [
+        [
+          "师生问好",
+          2
+        ],
+        [
+          "点名互动",
+          2
+        ],
+        [
+          "热身律动",
+          3
+        ],
+        [
+          "活动导入",
+          4
+        ],
+        [
+          "核心活动",
+          12
+        ],
+        [
+          "复练与小结",
+          5
+        ],
+        [
+          "结束与延伸",
+          2
+        ]
+      ],
+      "duration_sum": 30,
+      "duration_declared": 30,
+      "n_objectives": 8,
+      "domain": "认知"
+    },
+    {
+      "key": "秋天的水果",
+      "title": "认知课《秋天的水果》",
+      "delivered": false,
+      "ladder_source": "第四周-能干的我(1).docx",
+      "manual_ladder": false,
+      "split_by_class": false,
+      "n_files": 1,
+      "bytes": 23677,
+      "deid": {
+        "files": [
+          {
+            "file": "认知课《秋天的水果》.docx",
+            "chars": 7798,
+            "banned_total": 2,
+            "banned_exempt": 2,
+            "banned_body": 0,
+            "name_hits": 0
+          }
+        ],
+        "file_count": 1,
+        "files_with_body_banned": 0,
+        "banned_total": 2,
+        "banned_exempt": 2,
+        "banned_body": 0,
+        "name_hits": 0,
+        "chars": 7798,
+        "body_leak_rate": 0.0
+      },
+      "roster": {
+        "rows_total": 37,
+        "unique_codes": 37,
+        "coverage": 1.0,
+        "legal_combos": [
+          "123",
+          "124",
+          "145",
+          "1456"
+        ],
+        "combo_ok": 37,
+        "combo_ok_rate": 1.0,
+        "baseline_ok": 37,
+        "baseline_ok_rate": 1.0,
+        "combo_hist": {
+          "123": 12,
+          "124": 9,
+          "145": 2,
+          "1456": 14
+        },
+        "layer_dist": {
+          "L1": 12,
+          "L2": 9,
+          "L3": 2,
+          "L4": 14
+        },
+        "moves": {
+          "up": 12,
+          "down": 0,
+          "keep": 25,
+          "absent": 3
+        },
+        "rows": [
+          {
+            "file": "认知课《秋天的水果》.docx",
+            "code": "S01",
+            "goal": "123",
+            "baseline": "PEP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《秋天的水果》.docx",
+            "code": "S02",
+            "goal": "1456",
+            "baseline": "PEPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《秋天的水果》.docx",
+            "code": "S03",
+            "goal": "1456",
+            "baseline": "PEPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《秋天的水果》.docx",
+            "code": "S04",
+            "goal": "145",
+            "baseline": "PEE",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《秋天的水果》.docx",
+            "code": "S05",
+            "goal": "1456",
+            "baseline": "PEPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《秋天的水果》.docx",
+            "code": "S06",
+            "goal": "1456",
+            "baseline": "PEPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《秋天的水果》.docx",
+            "code": "S07",
+            "goal": "1456",
+            "baseline": "PPPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《秋天的水果》.docx",
+            "code": "S08",
+            "goal": "123",
+            "baseline": "PEE",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《秋天的水果》.docx",
+            "code": "S09",
+            "goal": "1456",
+            "baseline": "P   PPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《秋天的水果》.docx",
+            "code": "S10",
+            "goal": "1456",
+            "baseline": "PPPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《秋天的水果》.docx",
+            "code": "S11",
+            "goal": "123",
+            "baseline": "PEE",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《秋天的水果》.docx",
+            "code": "S12",
+            "goal": "123",
+            "baseline": "PEE",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《秋天的水果》.docx",
+            "code": "S13",
+            "goal": "124",
+            "baseline": "PEE",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《秋天的水果》.docx",
+            "code": "S14",
+            "goal": "1456",
+            "baseline": "PPPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《秋天的水果》.docx",
+            "code": "S15",
+            "goal": "1456",
+            "baseline": "未参与",
+            "absent": true,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《秋天的水果》.docx",
+            "code": "S16",
+            "goal": "123",
+            "baseline": "未参与",
+            "absent": true,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《秋天的水果》.docx",
+            "code": "S17",
+            "goal": "123",
+            "baseline": "PEE",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《秋天的水果》.docx",
+            "code": "S18",
+            "goal": "123",
+            "baseline": "PEE",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《秋天的水果》.docx",
+            "code": "S19",
+            "goal": "123",
+            "baseline": "PEE",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《秋天的水果》.docx",
+            "code": "S20",
+            "goal": "1456",
+            "baseline": "PPPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《秋天的水果》.docx",
+            "code": "S21",
+            "goal": "124",
+            "baseline": "PPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《秋天的水果》.docx",
+            "code": "S22",
+            "goal": "123",
+            "baseline": "PEE",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《秋天的水果》.docx",
+            "code": "S23",
+            "goal": "124",
+            "baseline": "PPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《秋天的水果》.docx",
+            "code": "S24",
+            "goal": "123",
+            "baseline": "PEE",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《秋天的水果》.docx",
+            "code": "S25",
+            "goal": "124",
+            "baseline": "PPE",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《秋天的水果》.docx",
+            "code": "S26",
+            "goal": "145",
+            "baseline": "PPE",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《秋天的水果》.docx",
+            "code": "S27",
+            "goal": "124",
+            "baseline": "PPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《秋天的水果》.docx",
+            "code": "S28",
+            "goal": "1456",
+            "baseline": "P     PPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《秋天的水果》.docx",
+            "code": "S29",
+            "goal": "124",
+            "baseline": "PPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《秋天的水果》.docx",
+            "code": "S30",
+            "goal": "1456",
+            "baseline": "PPPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《秋天的水果》.docx",
+            "code": "S31",
+            "goal": "123",
+            "baseline": "P P E",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《秋天的水果》.docx",
+            "code": "S32",
+            "goal": "124",
+            "baseline": "P P P",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《秋天的水果》.docx",
+            "code": "S33",
+            "goal": "124",
+            "baseline": "P P E",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《秋天的水果》.docx",
+            "code": "S34",
+            "goal": "1456",
+            "baseline": "PPPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《秋天的水果》.docx",
+            "code": "S35",
+            "goal": "124",
+            "baseline": "PPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《秋天的水果》.docx",
+            "code": "S36",
+            "goal": "1456",
+            "baseline": "PPPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "认知课《秋天的水果》.docx",
+            "code": "S37",
+            "goal": "123",
+            "baseline": "未参与",
+            "absent": true,
+            "combo_ok": true,
+            "baseline_ok": true
+          }
+        ]
+      },
+      "audit": {
+        "available": true,
+        "items_pass": 10,
+        "items_fail": 0,
+        "item_total": 10,
+        "all_pass": true,
+        "verdicts": [
+          "PASS"
+        ]
+      },
+      "gen": {
+        "errors": 0,
+        "ok": true,
+        "warnings": 0,
+        "error_sample": [],
+        "steps": 7,
+        "scaffold_per_step": 1.0,
+        "cue_coverage": 1.0,
+        "objectives": 8,
+        "alternatives": 4,
+        "individualized_goals": 3,
+        "duration": 30
+      },
+      "steps": [
+        [
+          "师生问好",
+          2
+        ],
+        [
+          "点名互动",
+          2
+        ],
+        [
+          "热身律动",
+          3
+        ],
+        [
+          "活动导入",
+          4
+        ],
+        [
+          "核心活动",
+          12
+        ],
+        [
+          "复练与小结",
+          5
+        ],
+        [
+          "结束与延伸",
+          2
+        ]
+      ],
+      "duration_sum": 30,
+      "duration_declared": 30,
+      "n_objectives": 8,
+      "domain": "认知"
+    },
+    {
+      "key": "穿鞋子",
+      "title": "生活自理课《穿鞋子》",
+      "delivered": false,
+      "ladder_source": "第四周-三月三(1).docx",
+      "manual_ladder": false,
+      "split_by_class": false,
+      "n_files": 1,
+      "bytes": 23720,
+      "deid": {
+        "files": [
+          {
+            "file": "生活自理课《穿鞋子》.docx",
+            "chars": 7820,
+            "banned_total": 2,
+            "banned_exempt": 2,
+            "banned_body": 0,
+            "name_hits": 0
+          }
+        ],
+        "file_count": 1,
+        "files_with_body_banned": 0,
+        "banned_total": 2,
+        "banned_exempt": 2,
+        "banned_body": 0,
+        "name_hits": 0,
+        "chars": 7820,
+        "body_leak_rate": 0.0
+      },
+      "roster": {
+        "rows_total": 37,
+        "unique_codes": 37,
+        "coverage": 1.0,
+        "legal_combos": [
+          "123",
+          "124",
+          "145",
+          "1456"
+        ],
+        "combo_ok": 37,
+        "combo_ok_rate": 1.0,
+        "baseline_ok": 37,
+        "baseline_ok_rate": 1.0,
+        "combo_hist": {
+          "123": 12,
+          "124": 9,
+          "145": 2,
+          "1456": 14
+        },
+        "layer_dist": {
+          "L1": 12,
+          "L2": 9,
+          "L3": 2,
+          "L4": 14
+        },
+        "moves": {
+          "up": 12,
+          "down": 0,
+          "keep": 25,
+          "absent": 3
+        },
+        "rows": [
+          {
+            "file": "生活自理课《穿鞋子》.docx",
+            "code": "S01",
+            "goal": "123",
+            "baseline": "PEP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "生活自理课《穿鞋子》.docx",
+            "code": "S02",
+            "goal": "1456",
+            "baseline": "PEPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "生活自理课《穿鞋子》.docx",
+            "code": "S03",
+            "goal": "1456",
+            "baseline": "PEPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "生活自理课《穿鞋子》.docx",
+            "code": "S04",
+            "goal": "145",
+            "baseline": "PEE",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "生活自理课《穿鞋子》.docx",
+            "code": "S05",
+            "goal": "1456",
+            "baseline": "PEPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "生活自理课《穿鞋子》.docx",
+            "code": "S06",
+            "goal": "1456",
+            "baseline": "PEPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "生活自理课《穿鞋子》.docx",
+            "code": "S07",
+            "goal": "1456",
+            "baseline": "PPPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "生活自理课《穿鞋子》.docx",
+            "code": "S08",
+            "goal": "123",
+            "baseline": "PEE",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "生活自理课《穿鞋子》.docx",
+            "code": "S09",
+            "goal": "1456",
+            "baseline": "P   PPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "生活自理课《穿鞋子》.docx",
+            "code": "S10",
+            "goal": "1456",
+            "baseline": "PPPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "生活自理课《穿鞋子》.docx",
+            "code": "S11",
+            "goal": "123",
+            "baseline": "PEE",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "生活自理课《穿鞋子》.docx",
+            "code": "S12",
+            "goal": "123",
+            "baseline": "PEE",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "生活自理课《穿鞋子》.docx",
+            "code": "S13",
+            "goal": "124",
+            "baseline": "PEE",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "生活自理课《穿鞋子》.docx",
+            "code": "S14",
+            "goal": "1456",
+            "baseline": "PPPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "生活自理课《穿鞋子》.docx",
+            "code": "S15",
+            "goal": "1456",
+            "baseline": "未参与",
+            "absent": true,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "生活自理课《穿鞋子》.docx",
+            "code": "S16",
+            "goal": "123",
+            "baseline": "未参与",
+            "absent": true,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "生活自理课《穿鞋子》.docx",
+            "code": "S17",
+            "goal": "123",
+            "baseline": "PEE",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "生活自理课《穿鞋子》.docx",
+            "code": "S18",
+            "goal": "123",
+            "baseline": "PEE",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "生活自理课《穿鞋子》.docx",
+            "code": "S19",
+            "goal": "123",
+            "baseline": "PEE",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "生活自理课《穿鞋子》.docx",
+            "code": "S20",
+            "goal": "1456",
+            "baseline": "PPPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "生活自理课《穿鞋子》.docx",
+            "code": "S21",
+            "goal": "124",
+            "baseline": "PPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "生活自理课《穿鞋子》.docx",
+            "code": "S22",
+            "goal": "123",
+            "baseline": "PEE",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "生活自理课《穿鞋子》.docx",
+            "code": "S23",
+            "goal": "124",
+            "baseline": "PPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "生活自理课《穿鞋子》.docx",
+            "code": "S24",
+            "goal": "123",
+            "baseline": "PEE",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "生活自理课《穿鞋子》.docx",
+            "code": "S25",
+            "goal": "124",
+            "baseline": "PPE",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "生活自理课《穿鞋子》.docx",
+            "code": "S26",
+            "goal": "145",
+            "baseline": "PPE",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "生活自理课《穿鞋子》.docx",
+            "code": "S27",
+            "goal": "124",
+            "baseline": "PPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "生活自理课《穿鞋子》.docx",
+            "code": "S28",
+            "goal": "1456",
+            "baseline": "P     PPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "生活自理课《穿鞋子》.docx",
+            "code": "S29",
+            "goal": "124",
+            "baseline": "PPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "生活自理课《穿鞋子》.docx",
+            "code": "S30",
+            "goal": "1456",
+            "baseline": "PPPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "生活自理课《穿鞋子》.docx",
+            "code": "S31",
+            "goal": "123",
+            "baseline": "P P E",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "生活自理课《穿鞋子》.docx",
+            "code": "S32",
+            "goal": "124",
+            "baseline": "P P P",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "生活自理课《穿鞋子》.docx",
+            "code": "S33",
+            "goal": "124",
+            "baseline": "P P E",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "生活自理课《穿鞋子》.docx",
+            "code": "S34",
+            "goal": "1456",
+            "baseline": "PPPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "生活自理课《穿鞋子》.docx",
+            "code": "S35",
+            "goal": "124",
+            "baseline": "PPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "生活自理课《穿鞋子》.docx",
+            "code": "S36",
+            "goal": "1456",
+            "baseline": "PPPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "生活自理课《穿鞋子》.docx",
+            "code": "S37",
+            "goal": "123",
+            "baseline": "未参与",
+            "absent": true,
+            "combo_ok": true,
+            "baseline_ok": true
+          }
+        ]
+      },
+      "audit": {
+        "available": true,
+        "items_pass": 10,
+        "items_fail": 0,
+        "item_total": 10,
+        "all_pass": true,
+        "verdicts": [
+          "PASS"
+        ]
+      },
+      "gen": {
+        "errors": 0,
+        "ok": true,
+        "warnings": 0,
+        "error_sample": [],
+        "steps": 7,
+        "scaffold_per_step": 1.0,
+        "cue_coverage": 1.0,
+        "objectives": 8,
+        "alternatives": 4,
+        "individualized_goals": 3,
+        "duration": 30
+      },
+      "steps": [
+        [
+          "师生问好",
+          2
+        ],
+        [
+          "点名互动",
+          2
+        ],
+        [
+          "热身律动",
+          3
+        ],
+        [
+          "活动导入",
+          4
+        ],
+        [
+          "核心活动",
+          12
+        ],
+        [
+          "复练与小结",
+          5
+        ],
+        [
+          "结束与延伸",
+          2
+        ]
+      ],
+      "duration_sum": 30,
+      "duration_declared": 30,
+      "n_objectives": 8,
+      "domain": "生活自理"
+    },
+    {
+      "key": "音乐做动作",
+      "title": "粗大动作课《音乐做动作》",
+      "delivered": false,
+      "ladder_source": "第二周-动物的家(1).docx",
+      "manual_ladder": false,
+      "split_by_class": false,
+      "n_files": 1,
+      "bytes": 23562,
+      "deid": {
+        "files": [
+          {
+            "file": "粗大动作课《音乐做动作》.docx",
+            "chars": 7744,
+            "banned_total": 2,
+            "banned_exempt": 2,
+            "banned_body": 0,
+            "name_hits": 0
+          }
+        ],
+        "file_count": 1,
+        "files_with_body_banned": 0,
+        "banned_total": 2,
+        "banned_exempt": 2,
+        "banned_body": 0,
+        "name_hits": 0,
+        "chars": 7744,
+        "body_leak_rate": 0.0
+      },
+      "roster": {
+        "rows_total": 37,
+        "unique_codes": 37,
+        "coverage": 1.0,
+        "legal_combos": [
+          "1245",
+          "125",
+          "134",
+          "135"
+        ],
+        "combo_ok": 37,
+        "combo_ok_rate": 1.0,
+        "baseline_ok": 37,
+        "baseline_ok_rate": 1.0,
+        "combo_hist": {
+          "1245": 14,
+          "125": 2,
+          "134": 12,
+          "135": 9
+        },
+        "layer_dist": {
+          "L1": 12,
+          "L2": 9,
+          "L3": 2,
+          "L4": 14
+        },
+        "moves": {
+          "up": 12,
+          "down": 0,
+          "keep": 25,
+          "absent": 3
+        },
+        "rows": [
+          {
+            "file": "粗大动作课《音乐做动作》.docx",
+            "code": "S01",
+            "goal": "134",
+            "baseline": "PPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "粗大动作课《音乐做动作》.docx",
+            "code": "S02",
+            "goal": "1245",
+            "baseline": "PEEP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "粗大动作课《音乐做动作》.docx",
+            "code": "S03",
+            "goal": "1245",
+            "baseline": "PEEP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "粗大动作课《音乐做动作》.docx",
+            "code": "S04",
+            "goal": "125",
+            "baseline": "PPE",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "粗大动作课《音乐做动作》.docx",
+            "code": "S05",
+            "goal": "1245",
+            "baseline": "PEEP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "粗大动作课《音乐做动作》.docx",
+            "code": "S06",
+            "goal": "1245",
+            "baseline": "PEEP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "粗大动作课《音乐做动作》.docx",
+            "code": "S07",
+            "goal": "1245",
+            "baseline": "PEPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "粗大动作课《音乐做动作》.docx",
+            "code": "S08",
+            "goal": "134",
+            "baseline": "PEE",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "粗大动作课《音乐做动作》.docx",
+            "code": "S09",
+            "goal": "1245",
+            "baseline": "P   PPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "粗大动作课《音乐做动作》.docx",
+            "code": "S10",
+            "goal": "1245",
+            "baseline": "PEPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "粗大动作课《音乐做动作》.docx",
+            "code": "S11",
+            "goal": "134",
+            "baseline": "PEE",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "粗大动作课《音乐做动作》.docx",
+            "code": "S12",
+            "goal": "134",
+            "baseline": "PEE",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "粗大动作课《音乐做动作》.docx",
+            "code": "S13",
+            "goal": "135",
+            "baseline": "PEE",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "粗大动作课《音乐做动作》.docx",
+            "code": "S14",
+            "goal": "1245",
+            "baseline": "PEPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "粗大动作课《音乐做动作》.docx",
+            "code": "S15",
+            "goal": "1245",
+            "baseline": "未参与",
+            "absent": true,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "粗大动作课《音乐做动作》.docx",
+            "code": "S16",
+            "goal": "134",
+            "baseline": "未参与",
+            "absent": true,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "粗大动作课《音乐做动作》.docx",
+            "code": "S17",
+            "goal": "134",
+            "baseline": "PEE",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "粗大动作课《音乐做动作》.docx",
+            "code": "S18",
+            "goal": "134",
+            "baseline": "PEE",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "粗大动作课《音乐做动作》.docx",
+            "code": "S19",
+            "goal": "134",
+            "baseline": "PEE",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "粗大动作课《音乐做动作》.docx",
+            "code": "S20",
+            "goal": "1245",
+            "baseline": "PEPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "粗大动作课《音乐做动作》.docx",
+            "code": "S21",
+            "goal": "135",
+            "baseline": "PEP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "粗大动作课《音乐做动作》.docx",
+            "code": "S22",
+            "goal": "134",
+            "baseline": "PEE",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "粗大动作课《音乐做动作》.docx",
+            "code": "S23",
+            "goal": "135",
+            "baseline": "PEP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "粗大动作课《音乐做动作》.docx",
+            "code": "S24",
+            "goal": "134",
+            "baseline": "PEE",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "粗大动作课《音乐做动作》.docx",
+            "code": "S25",
+            "goal": "135",
+            "baseline": "PPE",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "粗大动作课《音乐做动作》.docx",
+            "code": "S26",
+            "goal": "125",
+            "baseline": "PPE",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "粗大动作课《音乐做动作》.docx",
+            "code": "S27",
+            "goal": "135",
+            "baseline": "PPE",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "粗大动作课《音乐做动作》.docx",
+            "code": "S28",
+            "goal": "1245",
+            "baseline": "P     PPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "粗大动作课《音乐做动作》.docx",
+            "code": "S29",
+            "goal": "135",
+            "baseline": "PPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "粗大动作课《音乐做动作》.docx",
+            "code": "S30",
+            "goal": "1245",
+            "baseline": "PPPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "粗大动作课《音乐做动作》.docx",
+            "code": "S31",
+            "goal": "134",
+            "baseline": "P P E",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "粗大动作课《音乐做动作》.docx",
+            "code": "S32",
+            "goal": "135",
+            "baseline": "P P P",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "粗大动作课《音乐做动作》.docx",
+            "code": "S33",
+            "goal": "135",
+            "baseline": "P P E",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "粗大动作课《音乐做动作》.docx",
+            "code": "S34",
+            "goal": "1245",
+            "baseline": "PPPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "粗大动作课《音乐做动作》.docx",
+            "code": "S35",
+            "goal": "135",
+            "baseline": "PPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "粗大动作课《音乐做动作》.docx",
+            "code": "S36",
+            "goal": "1245",
+            "baseline": "PPPP",
+            "absent": false,
+            "combo_ok": true,
+            "baseline_ok": true
+          },
+          {
+            "file": "粗大动作课《音乐做动作》.docx",
+            "code": "S37",
+            "goal": "134",
+            "baseline": "未参与",
+            "absent": true,
+            "combo_ok": true,
+            "baseline_ok": true
+          }
+        ]
+      },
+      "audit": {
+        "available": true,
+        "items_pass": 10,
+        "items_fail": 0,
+        "item_total": 10,
+        "all_pass": true,
+        "verdicts": [
+          "PASS"
+        ]
+      },
+      "gen": {
+        "errors": 0,
+        "ok": true,
+        "warnings": 0,
+        "error_sample": [],
+        "steps": 7,
+        "scaffold_per_step": 1.0,
+        "cue_coverage": 1.0,
+        "objectives": 8,
+        "alternatives": 4,
+        "individualized_goals": 3,
+        "duration": 30
+      },
+      "steps": [
+        [
+          "师生问好",
+          2
+        ],
+        [
+          "点名互动",
+          2
+        ],
+        [
+          "热身律动",
+          3
+        ],
+        [
+          "活动导入",
+          4
+        ],
+        [
+          "核心活动",
+          12
+        ],
+        [
+          "复练与小结",
+          5
+        ],
+        [
+          "结束与延伸",
+          2
+        ]
+      ],
+      "duration_sum": 30,
+      "duration_declared": 30,
+      "n_objectives": 8,
+      "domain": "粗大动作"
+    }
+  ],
+  "content": {
+    "hit": {
+      "国庆节到了": {
+        "steps_total": 7,
+        "steps_with_theme": 6
+      },
+      "秋天的水果": {
+        "steps_total": 7,
+        "steps_with_theme": 5
+      },
+      "穿鞋子": {
+        "steps_total": 7,
+        "steps_with_theme": 5
+      },
+      "音乐做动作": {
+        "steps_total": 7,
+        "steps_with_theme": 5
+      }
+    },
+    "keys": [
+      "国庆节到了",
+      "秋天的水果",
+      "穿鞋子",
+      "音乐做动作"
+    ],
+    "raw": [
+      [
+        0.0,
+        0.0911,
+        0.1237,
+        0.1044
+      ],
+      [
+        0.0911,
+        0.0,
+        0.1062,
+        0.1033
+      ],
+      [
+        0.1237,
+        0.1062,
+        0.0,
+        0.1204
+      ],
+      [
+        0.1044,
+        0.1033,
+        0.1204,
+        0.0
+      ]
+    ],
+    "canon": [
+      [
+        0.0,
+        0.091,
+        0.1233,
+        0.1045
+      ],
+      [
+        0.091,
+        0.0,
+        0.1191,
+        0.1044
+      ],
+      [
+        0.1233,
+        0.1191,
+        0.0,
+        0.1225
+      ],
+      [
+        0.1045,
+        0.1044,
+        0.1225,
+        0.0
+      ]
+    ],
+    "corpus_base": {
+      "n_pairs": 91,
+      "min": 0.044,
+      "p25": 0.07,
+      "median": 0.0784,
+      "p75": 0.1021,
+      "max": 1.0,
+      "mean": 0.1178
+    },
+    "shared_sentences": [
+      [
+        "能在手势提示下完成核心操作，提示不超过 2 次，即视为达成",
+        [
+          "国庆节到了",
+          "秋天的水果",
+          "穿鞋子",
+          "音乐做动作"
+        ]
+      ],
+      [
+        "精细动作环节需教师全程在旁，避免幼儿将小件材料放入口中",
+        [
+          "国庆节到了",
+          "秋天的水果",
+          "穿鞋子",
+          "音乐做动作"
+        ]
+      ],
+      [
+        "能在身体辅助或示范下参与活动并有回应，即视为达成",
+        [
+          "国庆节到了",
+          "秋天的水果",
+          "穿鞋子",
+          "音乐做动作"
+        ]
+      ],
+      [
+        "活动材料均为大尺寸、无尖角，使用前检查有无破损",
+        [
+          "国庆节到了",
+          "秋天的水果",
+          "穿鞋子",
+          "音乐做动作"
+        ]
+      ],
+      [
+        "能独立完成核心操作并说出名称，即视为达成",
+        [
+          "国庆节到了",
+          "秋天的水果",
+          "穿鞋子",
+          "音乐做动作"
+        ]
+      ],
+      [
+        "全班 12 名中至少 2 名能达到",
+        [
+          "国庆节到了",
+          "秋天的水果",
+          "穿鞋子",
+          "音乐做动作"
+        ]
+      ],
+      [
+        "全班 12 名中至少 3 名能达到",
+        [
+          "国庆节到了",
+          "秋天的水果",
+          "穿鞋子"
+        ]
+      ]
+    ],
+    "unique_ratio": {
+      "国庆节到了": 0.8664,
+      "秋天的水果": 0.799,
+      "穿鞋子": 0.8408,
+      "音乐做动作": 0.8681
+    },
+    "shared_cover": {
+      "国庆节到了": 0.1008,
+      "秋天的水果": 0.1263,
+      "穿鞋子": 0.1352,
+      "音乐做动作": 0.0962
+    },
+    "mean_raw_holdout": 0.11,
+    "mean_canon_holdout": 0.1153,
+    "mean_cross_raw": 0.1064,
+    "n_shared": 7
+  },
+  "purity": [
+    {
+      "key": "秋天的水果",
+      "in_corpus": false,
+      "clash": [],
+      "ladder_source_in_corpus": true
+    },
+    {
+      "key": "穿鞋子",
+      "in_corpus": false,
+      "clash": [],
+      "ladder_source_in_corpus": true
+    },
+    {
+      "key": "音乐做动作",
+      "in_corpus": false,
+      "clash": [],
+      "ladder_source_in_corpus": true
+    }
+  ],
+  "corpus_titles": [
+    "劳动最快乐",
+    "快乐六一",
+    "春天的踪影",
+    "童心向党",
+    "浓浓端午节",
+    "动物的家",
+    "我和我的同伴",
+    "春天在哪里",
+    "童心向党",
+    "三月三的习俗",
+    "浓浓端午节",
+    "清凉夏日",
+    "能干的我",
+    "音乐游戏"
+  ]
+}

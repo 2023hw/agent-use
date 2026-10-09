@@ -1,0 +1,252 @@
+{
+  "title": "粗大动作课《音乐做动作》",
+  "class_label": "混龄康教班（已匿名）",
+  "age_range": "3-9岁",
+  "theme": "音乐做动作",
+  "class_size": 12,
+  "total_duration_min": 30,
+  "date_range": "2026年10月12日—10月16日",
+  "class_objectives_text": "1. 幼儿能够跟随音乐节奏完成基本动作。\n2. 幼儿能够通过动作表达音乐的情感。\n3. 幼儿能够与同伴合作完成音乐动作。",
+  "main_domain": "粗大动作",
+  "objectives": [
+    {
+      "level": "A",
+      "domain": "粗大动作",
+      "support_level": "示范模仿",
+      "text": "能在老师示范后跟随做 2 个拍手动作",
+      "observable_verb": "跟随",
+      "criteria": "全班 12 名中至少 2 名能达到"
+    },
+    {
+      "level": "B",
+      "domain": "粗大动作",
+      "support_level": "手势辅助",
+      "text": "能跟随音乐节奏拍手 3 次",
+      "observable_verb": "拍手",
+      "criteria": "全班 12 名中至少 7 名能达到"
+    },
+    {
+      "level": "C",
+      "domain": "粗大动作",
+      "support_level": "独立完成",
+      "text": "能跟随音乐节奏拍手 5 次",
+      "observable_verb": "拍手",
+      "criteria": "全班 12 名中至少 4 名能达到"
+    },
+    {
+      "level": "A",
+      "domain": "粗大动作",
+      "support_level": "大量身体辅助",
+      "text": "能在老师辅助下完成 1 个简单的舞蹈动作",
+      "observable_verb": "完成",
+      "criteria": "全班 12 名中至少 1 名能达到"
+    },
+    {
+      "level": "B",
+      "domain": "粗大动作",
+      "support_level": "少量身体辅助",
+      "text": "能跟随音乐节奏踏步 2 次",
+      "observable_verb": "踏步",
+      "criteria": "全班 12 名中至少 7 名能达到"
+    },
+    {
+      "level": "C",
+      "domain": "粗大动作",
+      "support_level": "独立完成",
+      "text": "能跟随音乐节奏踏步 3 次",
+      "observable_verb": "踏步",
+      "criteria": "全班 12 名中至少 4 名能达到"
+    },
+    {
+      "level": "A",
+      "domain": "粗大动作",
+      "support_level": "示范模仿",
+      "text": "能在老师示范后跟随做 1 个转身动作",
+      "observable_verb": "跟随",
+      "criteria": "全班 12 名中至少 1 名能达到"
+    },
+    {
+      "level": "B",
+      "domain": "粗大动作",
+      "support_level": "手势辅助",
+      "text": "能跟随音乐节奏转身 2 次",
+      "observable_verb": "转身",
+      "criteria": "全班 12 名中至少 7 名能达到"
+    }
+  ],
+  "materials": [
+    "音乐CD：节奏明快的儿歌，规格：CD格式",
+    "舞蹈棒：颜色鲜艳，长度约1米",
+    "动物形状软球：多种动物造型，直径约10厘米",
+    "音乐节奏图：彩色，大小适中",
+    "彩色积木：多种颜色，大小适中",
+    "音乐时钟：模拟时钟，带有音乐按钮"
+  ],
+  "environment": "活动室地面铺设柔软垫子，四周悬挂彩色气球。",
+  "safety_notes": "活动材料均为大尺寸、无尖角，使用前检查有无破损；精细动作环节需教师全程在旁，避免幼儿将小件材料放入口中。",
+  "steps": [
+    {
+      "index": 1,
+      "name": "师生问好",
+      "duration_min": 2,
+      "teacher_script": "师：摇铃鼓，小朋友们请坐好，今天我们要一起玩音乐做动作的游戏哦。",
+      "child_action": "幼儿坐好，跟随老师一起摇铃鼓。",
+      "visual_cue": "出示摇铃鼓，吸引幼儿注意力。",
+      "scaffolds": [
+        "教师站在幼儿旁边，确保他们能够听到铃声并跟随节奏"
+      ],
+      "observation_points": [
+        "幼儿是否能安静坐下，是否能跟随铃声做出相应的动作"
+      ]
+    },
+    {
+      "index": 2,
+      "name": "点名互动",
+      "duration_min": 2,
+      "teacher_script": "师：小朋友们，我们来玩一个游戏，请说出你的名字。",
+      "child_action": "幼儿依次说出自己的名字。",
+      "visual_cue": "教师用手指向每个幼儿，确保他们能够被注意到。",
+      "scaffolds": [
+        "教师可以重复幼儿的名字，帮助他们记忆"
+      ],
+      "observation_points": [
+        "幼儿是否能正确回应，是否能参与互动"
+      ]
+    },
+    {
+      "index": 3,
+      "name": "热身律动",
+      "duration_min": 3,
+      "teacher_script": "师：现在让我们来做做热身运动，跟着音乐拍拍手吧。",
+      "child_action": "幼儿跟随音乐节奏拍手。",
+      "visual_cue": "播放轻快的音乐，并用拍手动作示意。",
+      "scaffolds": [
+        "教师可以站在需要较多支持的幼儿旁边，引导他们拍手"
+      ],
+      "observation_points": [
+        "幼儿是否能跟随节奏拍手，动作是否协调"
+      ]
+    },
+    {
+      "index": 4,
+      "name": "活动导入",
+      "duration_min": 4,
+      "teacher_script": "师：看，老师手里有一面小鼓，我们要跟着音乐的节奏敲击它。",
+      "child_action": "幼儿观察老师敲击小鼓，并尝试模仿。",
+      "visual_cue": "展示小鼓，并敲击出节奏。",
+      "scaffolds": [
+        "教师可以示范敲击动作，并引导幼儿模仿"
+      ],
+      "observation_points": [
+        "幼儿是否能观察并模仿敲击动作，是否能跟随节奏"
+      ]
+    },
+    {
+      "index": 5,
+      "name": "核心活动",
+      "duration_min": 12,
+      "teacher_script": "师：现在请小朋友们跟着音乐拍手，看谁拍得最好。",
+      "child_action": "幼儿跟随音乐节奏拍手。",
+      "visual_cue": "播放音乐，并用拍手动作示意。",
+      "scaffolds": [
+        "教师可以站在需要较多支持的幼儿旁边，引导他们拍手"
+      ],
+      "observation_points": [
+        "幼儿是否能跟随节奏拍手，动作是否协调"
+      ]
+    },
+    {
+      "index": 6,
+      "name": "复练与小结",
+      "duration_min": 5,
+      "teacher_script": "师：很好，小朋友们，我们再来一次，看谁能拍得更多。",
+      "child_action": "幼儿再次跟随音乐节奏拍手。",
+      "visual_cue": "播放音乐，并用拍手动作示意。",
+      "scaffolds": [
+        "教师可以减少支持，让幼儿独立完成"
+      ],
+      "observation_points": [
+        "幼儿是否能独立跟随节奏拍手，动作是否更加协调"
+      ]
+    },
+    {
+      "index": 7,
+      "name": "结束与延伸",
+      "duration_min": 2,
+      "teacher_script": "师：今天我们玩得很开心，回家后可以和爸爸妈妈一起玩音乐做动作的游戏哦。",
+      "child_action": "幼儿听后露出愉快的表情。",
+      "visual_cue": "教师用愉快的语气总结活动。",
+      "scaffolds": [
+        "教师可以鼓励幼儿和家人一起进行家庭延伸活动"
+      ],
+      "observation_points": [
+        "幼儿是否能理解教师的总结，是否能表现出愉快的情绪"
+      ]
+    }
+  ],
+  "individualized_goals": [
+    {
+      "level": "A",
+      "share_of_class": "约 1 名",
+      "goal": "能够跟随音乐的节奏做出简单的拍手动作。",
+      "baseline_hint": "在音乐播放时，幼儿能够做出拍手的动作。",
+      "evaluation_method": "观察幼儿在音乐播放时的动作。",
+      "follow_up": "提供更加简单和重复的音乐节奏，减少动作的复杂性。"
+    },
+    {
+      "level": "B",
+      "share_of_class": "约 7 名",
+      "goal": "能够根据音乐的节奏和情感变化做出相应的动作。",
+      "baseline_hint": "在音乐播放时，幼儿能够根据节奏和情感做出相应的动作。",
+      "evaluation_method": "观察幼儿在音乐播放时的动作和表情。",
+      "follow_up": "增加音乐的变化和动作的复杂性，以适应幼儿的发展。"
+    },
+    {
+      "level": "C",
+      "share_of_class": "约 4 名",
+      "goal": "能够与同伴合作完成一个连贯的音乐动作。",
+      "baseline_hint": "在音乐播放时，幼儿能够与同伴协调动作。",
+      "evaluation_method": "观察幼儿与同伴的合作情况和动作的连贯性。",
+      "follow_up": "提供更多的合作机会，鼓励幼儿之间的交流和协作。"
+    }
+  ],
+  "alternatives": [
+    {
+      "situation": "幼儿无法完成指认或命名",
+      "alternative_participation": "改为让幼儿用手指出、点头示意，或从两个选项中挑选一个",
+      "alternative_evaluation": "能在两个选项中正确选出，即视为达成"
+    },
+    {
+      "situation": "幼儿无法用语言表达",
+      "alternative_participation": "改为提供图片选择、点头摇头、或用手指点",
+      "alternative_evaluation": "能用非语言方式正确回应，即视为达成"
+    },
+    {
+      "situation": "幼儿情绪不稳不愿参与",
+      "alternative_participation": "允许先旁观，老师把他安排在同伴旁边，待情绪平稳后再邀请",
+      "alternative_evaluation": "能在活动结束前加入并完成一次回应，即视为达成"
+    },
+    {
+      "situation": "幼儿精细动作完成困难",
+      "alternative_participation": "改为使用更大的材料，或由老师扶住材料、幼儿完成最后一步",
+      "alternative_evaluation": "能在辅助下完成最后一个动作，即视为达成"
+    }
+  ],
+  "assessment": {
+    "A": "能在身体辅助或示范下参与活动并有回应，即视为达成",
+    "B": "能在手势提示下完成核心操作，提示不超过 2 次，即视为达成",
+    "C": "能独立完成核心操作并说出名称，即视为达成"
+  },
+  "extension": "1. 生活延伸：在家庭中播放音乐，鼓励幼儿模仿课堂中学到的动作。\n2. 家园共育：家长可以与幼儿一起创作简单的音乐动作，增强亲子互动。",
+  "reflection_slots": "（此处留白，供带班老师课后填写）",
+  "key_points": {
+    "focus": "动作与音乐的节奏和情感相匹配",
+    "difficulty": "动作的协调性和节奏感"
+  },
+  "home_extension": "亲爱的家长，您可以在家中播放音乐，与孩子一起练习课堂上学到的动作，这有助于提高孩子的音乐感知和身体协调能力。",
+  "reflection_points": [
+    "本次活动中，哪些幼儿需要比预设更多的支持？",
+    "哪个环节的提示可以再减少一些？",
+    "复练次数是否足够？下次是否需要增加？"
+  ]
+}

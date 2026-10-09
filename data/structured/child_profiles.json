@@ -1,0 +1,1212 @@
+[
+  {
+    "anon_id": "S01",
+    "attendance": "在课",
+    "lessons_observed": 4,
+    "session_blocks": 18,
+    "evidence_total": 54,
+    "mastery": 0.352,
+    "support_level": "大量身体辅助",
+    "domains": [
+      {
+        "domain": "精细动作",
+        "evidence": 15,
+        "mastery": 0.4,
+        "support_level": "少量身体辅助",
+        "reliable": false
+      },
+      {
+        "domain": "语言沟通",
+        "evidence": 15,
+        "mastery": 0.4,
+        "support_level": "少量身体辅助",
+        "reliable": false
+      },
+      {
+        "domain": "生活自理",
+        "evidence": 12,
+        "mastery": 0.167,
+        "support_level": "示范模仿",
+        "reliable": false
+      },
+      {
+        "domain": "粗大动作",
+        "evidence": 12,
+        "mastery": 0.417,
+        "support_level": "少量身体辅助",
+        "reliable": false
+      }
+    ]
+  },
+  {
+    "anon_id": "S02",
+    "attendance": "在课",
+    "lessons_observed": 4,
+    "session_blocks": 19,
+    "evidence_total": 57,
+    "mastery": 0.86,
+    "support_level": "独立完成",
+    "domains": [
+      {
+        "domain": "生活自理",
+        "evidence": 27,
+        "mastery": 0.852,
+        "support_level": "独立完成",
+        "reliable": true
+      },
+      {
+        "domain": "粗大动作",
+        "evidence": 15,
+        "mastery": 0.867,
+        "support_level": "独立完成",
+        "reliable": false
+      },
+      {
+        "domain": "认知",
+        "evidence": 15,
+        "mastery": 0.867,
+        "support_level": "独立完成",
+        "reliable": false
+      }
+    ]
+  },
+  {
+    "anon_id": "S03",
+    "attendance": "在课",
+    "lessons_observed": 8,
+    "session_blocks": 39,
+    "evidence_total": 132,
+    "mastery": 0.78,
+    "support_level": "手势辅助",
+    "domains": [
+      {
+        "domain": "粗大动作",
+        "evidence": 35,
+        "mastery": 0.771,
+        "support_level": "手势辅助",
+        "reliable": true
+      },
+      {
+        "domain": "语言沟通",
+        "evidence": 35,
+        "mastery": 0.743,
+        "support_level": "手势辅助",
+        "reliable": true
+      },
+      {
+        "domain": "生活自理",
+        "evidence": 27,
+        "mastery": 0.852,
+        "support_level": "独立完成",
+        "reliable": true
+      },
+      {
+        "domain": "未分类",
+        "evidence": 20,
+        "mastery": 0.7,
+        "support_level": "手势辅助",
+        "reliable": true
+      },
+      {
+        "domain": "认知",
+        "evidence": 15,
+        "mastery": 0.867,
+        "support_level": "独立完成",
+        "reliable": false
+      }
+    ]
+  },
+  {
+    "anon_id": "S04",
+    "attendance": "在课",
+    "lessons_observed": 8,
+    "session_blocks": 39,
+    "evidence_total": 117,
+    "mastery": 0.726,
+    "support_level": "手势辅助",
+    "domains": [
+      {
+        "domain": "粗大动作",
+        "evidence": 30,
+        "mastery": 0.733,
+        "support_level": "手势辅助",
+        "reliable": true
+      },
+      {
+        "domain": "语言沟通",
+        "evidence": 30,
+        "mastery": 0.6,
+        "support_level": "手势辅助",
+        "reliable": true
+      },
+      {
+        "domain": "生活自理",
+        "evidence": 27,
+        "mastery": 0.852,
+        "support_level": "独立完成",
+        "reliable": true
+      },
+      {
+        "domain": "未分类",
+        "evidence": 15,
+        "mastery": 0.6,
+        "support_level": "手势辅助",
+        "reliable": false
+      },
+      {
+        "domain": "认知",
+        "evidence": 15,
+        "mastery": 0.867,
+        "support_level": "独立完成",
+        "reliable": false
+      }
+    ]
+  },
+  {
+    "anon_id": "S05",
+    "attendance": "在课",
+    "lessons_observed": 9,
+    "session_blocks": 41,
+    "evidence_total": 140,
+    "mastery": 0.764,
+    "support_level": "手势辅助",
+    "domains": [
+      {
+        "domain": "粗大动作",
+        "evidence": 35,
+        "mastery": 0.771,
+        "support_level": "手势辅助",
+        "reliable": true
+      },
+      {
+        "domain": "语言沟通",
+        "evidence": 35,
+        "mastery": 0.743,
+        "support_level": "手势辅助",
+        "reliable": true
+      },
+      {
+        "domain": "生活自理",
+        "evidence": 27,
+        "mastery": 0.852,
+        "support_level": "独立完成",
+        "reliable": true
+      },
+      {
+        "domain": "未分类",
+        "evidence": 20,
+        "mastery": 0.7,
+        "support_level": "手势辅助",
+        "reliable": true
+      },
+      {
+        "domain": "认知",
+        "evidence": 15,
+        "mastery": 0.867,
+        "support_level": "独立完成",
+        "reliable": false
+      },
+      {
+        "domain": "社会交往",
+        "evidence": 8,
+        "mastery": 0.5,
+        "support_level": "少量身体辅助",
+        "reliable": false
+      }
+    ]
+  },
+  {
+    "anon_id": "S06",
+    "attendance": "在课",
+    "lessons_observed": 8,
+    "session_blocks": 39,
+    "evidence_total": 132,
+    "mastery": 0.78,
+    "support_level": "手势辅助",
+    "domains": [
+      {
+        "domain": "粗大动作",
+        "evidence": 35,
+        "mastery": 0.771,
+        "support_level": "手势辅助",
+        "reliable": true
+      },
+      {
+        "domain": "语言沟通",
+        "evidence": 35,
+        "mastery": 0.743,
+        "support_level": "手势辅助",
+        "reliable": true
+      },
+      {
+        "domain": "生活自理",
+        "evidence": 27,
+        "mastery": 0.852,
+        "support_level": "独立完成",
+        "reliable": true
+      },
+      {
+        "domain": "未分类",
+        "evidence": 20,
+        "mastery": 0.7,
+        "support_level": "手势辅助",
+        "reliable": true
+      },
+      {
+        "domain": "认知",
+        "evidence": 15,
+        "mastery": 0.867,
+        "support_level": "独立完成",
+        "reliable": false
+      }
+    ]
+  },
+  {
+    "anon_id": "S07",
+    "attendance": "在课",
+    "lessons_observed": 12,
+    "session_blocks": 57,
+    "evidence_total": 204,
+    "mastery": 0.779,
+    "support_level": "手势辅助",
+    "domains": [
+      {
+        "domain": "语言沟通",
+        "evidence": 75,
+        "mastery": 0.693,
+        "support_level": "手势辅助",
+        "reliable": true
+      },
+      {
+        "domain": "生活自理",
+        "evidence": 47,
+        "mastery": 0.872,
+        "support_level": "独立完成",
+        "reliable": true
+      },
+      {
+        "domain": "社会交往",
+        "evidence": 36,
+        "mastery": 0.722,
+        "support_level": "手势辅助",
+        "reliable": true
+      },
+      {
+        "domain": "认知",
+        "evidence": 31,
+        "mastery": 0.871,
+        "support_level": "独立完成",
+        "reliable": true
+      },
+      {
+        "domain": "粗大动作",
+        "evidence": 15,
+        "mastery": 0.867,
+        "support_level": "独立完成",
+        "reliable": false
+      }
+    ]
+  },
+  {
+    "anon_id": "S08",
+    "attendance": "在课",
+    "lessons_observed": 4,
+    "session_blocks": 10,
+    "evidence_total": 30,
+    "mastery": 0.2,
+    "support_level": "大量身体辅助",
+    "domains": [
+      {
+        "domain": "生活自理",
+        "evidence": 15,
+        "mastery": 0.2,
+        "support_level": "大量身体辅助",
+        "reliable": false
+      },
+      {
+        "domain": "粗大动作",
+        "evidence": 15,
+        "mastery": 0.2,
+        "support_level": "大量身体辅助",
+        "reliable": false
+      }
+    ]
+  },
+  {
+    "anon_id": "S09",
+    "attendance": "在课",
+    "lessons_observed": 2,
+    "session_blocks": 9,
+    "evidence_total": 27,
+    "mastery": 0.852,
+    "support_level": "独立完成",
+    "domains": [
+      {
+        "domain": "粗大动作",
+        "evidence": 15,
+        "mastery": 0.867,
+        "support_level": "独立完成",
+        "reliable": false
+      },
+      {
+        "domain": "生活自理",
+        "evidence": 12,
+        "mastery": 0.833,
+        "support_level": "独立完成",
+        "reliable": false
+      }
+    ]
+  },
+  {
+    "anon_id": "S10",
+    "attendance": "在课",
+    "lessons_observed": 9,
+    "session_blocks": 39,
+    "evidence_total": 134,
+    "mastery": 0.806,
+    "support_level": "独立完成",
+    "domains": [
+      {
+        "domain": "语言沟通",
+        "evidence": 50,
+        "mastery": 0.78,
+        "support_level": "手势辅助",
+        "reliable": true
+      },
+      {
+        "domain": "生活自理",
+        "evidence": 26,
+        "mastery": 0.885,
+        "support_level": "独立完成",
+        "reliable": true
+      },
+      {
+        "domain": "社会交往",
+        "evidence": 16,
+        "mastery": 0.938,
+        "support_level": "独立完成",
+        "reliable": false
+      },
+      {
+        "domain": "未分类",
+        "evidence": 15,
+        "mastery": 0.667,
+        "support_level": "手势辅助",
+        "reliable": false
+      },
+      {
+        "domain": "粗大动作",
+        "evidence": 15,
+        "mastery": 0.667,
+        "support_level": "手势辅助",
+        "reliable": false
+      },
+      {
+        "domain": "认知",
+        "evidence": 12,
+        "mastery": 0.917,
+        "support_level": "独立完成",
+        "reliable": false
+      }
+    ]
+  },
+  {
+    "anon_id": "S11",
+    "attendance": "在课",
+    "lessons_observed": 12,
+    "session_blocks": 57,
+    "evidence_total": 189,
+    "mastery": 0.323,
+    "support_level": "大量身体辅助",
+    "domains": [
+      {
+        "domain": "语言沟通",
+        "evidence": 50,
+        "mastery": 0.48,
+        "support_level": "少量身体辅助",
+        "reliable": true
+      },
+      {
+        "domain": "生活自理",
+        "evidence": 47,
+        "mastery": 0.128,
+        "support_level": "示范模仿",
+        "reliable": true
+      },
+      {
+        "domain": "认知",
+        "evidence": 31,
+        "mastery": 0.161,
+        "support_level": "示范模仿",
+        "reliable": true
+      },
+      {
+        "domain": "粗大动作",
+        "evidence": 30,
+        "mastery": 0.4,
+        "support_level": "少量身体辅助",
+        "reliable": true
+      },
+      {
+        "domain": "社会交往",
+        "evidence": 16,
+        "mastery": 0.25,
+        "support_level": "大量身体辅助",
+        "reliable": false
+      },
+      {
+        "domain": "未分类",
+        "evidence": 15,
+        "mastery": 0.667,
+        "support_level": "手势辅助",
+        "reliable": false
+      }
+    ]
+  },
+  {
+    "anon_id": "S12",
+    "attendance": "在课",
+    "lessons_observed": 6,
+    "session_blocks": 17,
+    "evidence_total": 51,
+    "mastery": 0.608,
+    "support_level": "手势辅助",
+    "domains": [
+      {
+        "domain": "生活自理",
+        "evidence": 18,
+        "mastery": 0.667,
+        "support_level": "手势辅助",
+        "reliable": false
+      },
+      {
+        "domain": "粗大动作",
+        "evidence": 15,
+        "mastery": 0.867,
+        "support_level": "独立完成",
+        "reliable": false
+      },
+      {
+        "domain": "社会交往",
+        "evidence": 6,
+        "mastery": 0.333,
+        "support_level": "大量身体辅助",
+        "reliable": false
+      },
+      {
+        "domain": "语言沟通",
+        "evidence": 6,
+        "mastery": 0.333,
+        "support_level": "大量身体辅助",
+        "reliable": false
+      },
+      {
+        "domain": "认知",
+        "evidence": 6,
+        "mastery": 0.333,
+        "support_level": "大量身体辅助",
+        "reliable": false
+      }
+    ]
+  },
+  {
+    "anon_id": "S13",
+    "attendance": "在课",
+    "lessons_observed": 6,
+    "session_blocks": 29,
+    "evidence_total": 87,
+    "mastery": 0.678,
+    "support_level": "手势辅助",
+    "domains": [
+      {
+        "domain": "粗大动作",
+        "evidence": 30,
+        "mastery": 0.733,
+        "support_level": "手势辅助",
+        "reliable": true
+      },
+      {
+        "domain": "语言沟通",
+        "evidence": 30,
+        "mastery": 0.6,
+        "support_level": "手势辅助",
+        "reliable": true
+      },
+      {
+        "domain": "未分类",
+        "evidence": 15,
+        "mastery": 0.6,
+        "support_level": "手势辅助",
+        "reliable": false
+      },
+      {
+        "domain": "生活自理",
+        "evidence": 12,
+        "mastery": 0.833,
+        "support_level": "独立完成",
+        "reliable": false
+      }
+    ]
+  },
+  {
+    "anon_id": "S14",
+    "attendance": "在课",
+    "lessons_observed": 12,
+    "session_blocks": 56,
+    "evidence_total": 185,
+    "mastery": 0.849,
+    "support_level": "独立完成",
+    "domains": [
+      {
+        "domain": "语言沟通",
+        "evidence": 66,
+        "mastery": 0.788,
+        "support_level": "手势辅助",
+        "reliable": true
+      },
+      {
+        "domain": "认知",
+        "evidence": 35,
+        "mastery": 0.914,
+        "support_level": "独立完成",
+        "reliable": true
+      },
+      {
+        "domain": "粗大动作",
+        "evidence": 30,
+        "mastery": 0.833,
+        "support_level": "独立完成",
+        "reliable": true
+      },
+      {
+        "domain": "生活自理",
+        "evidence": 27,
+        "mastery": 1.0,
+        "support_level": "独立完成",
+        "reliable": true
+      },
+      {
+        "domain": "未分类",
+        "evidence": 15,
+        "mastery": 0.667,
+        "support_level": "手势辅助",
+        "reliable": false
+      },
+      {
+        "domain": "精细动作",
+        "evidence": 12,
+        "mastery": 0.917,
+        "support_level": "独立完成",
+        "reliable": false
+      }
+    ]
+  },
+  {
+    "anon_id": "S15",
+    "attendance": "缺席",
+    "lessons_observed": 4,
+    "session_blocks": 0,
+    "evidence_total": 0,
+    "mastery": 0.0,
+    "support_level": "未参与",
+    "domains": []
+  },
+  {
+    "anon_id": "S16",
+    "attendance": "在课",
+    "lessons_observed": 2,
+    "session_blocks": 9,
+    "evidence_total": 36,
+    "mastery": 0.222,
+    "support_level": "大量身体辅助",
+    "domains": [
+      {
+        "domain": "语言沟通",
+        "evidence": 20,
+        "mastery": 0.2,
+        "support_level": "大量身体辅助",
+        "reliable": true
+      },
+      {
+        "domain": "社会交往",
+        "evidence": 16,
+        "mastery": 0.25,
+        "support_level": "大量身体辅助",
+        "reliable": false
+      }
+    ]
+  },
+  {
+    "anon_id": "S17",
+    "attendance": "在课",
+    "lessons_observed": 4,
+    "session_blocks": 17,
+    "evidence_total": 68,
+    "mastery": 0.265,
+    "support_level": "大量身体辅助",
+    "domains": [
+      {
+        "domain": "语言沟通",
+        "evidence": 20,
+        "mastery": 0.25,
+        "support_level": "大量身体辅助",
+        "reliable": true
+      },
+      {
+        "domain": "生活自理",
+        "evidence": 20,
+        "mastery": 0.25,
+        "support_level": "大量身体辅助",
+        "reliable": true
+      },
+      {
+        "domain": "社会交往",
+        "evidence": 16,
+        "mastery": 0.312,
+        "support_level": "大量身体辅助",
+        "reliable": false
+      },
+      {
+        "domain": "认知",
+        "evidence": 12,
+        "mastery": 0.25,
+        "support_level": "大量身体辅助",
+        "reliable": false
+      }
+    ]
+  },
+  {
+    "anon_id": "S18",
+    "attendance": "在课",
+    "lessons_observed": 4,
+    "session_blocks": 16,
+    "evidence_total": 48,
+    "mastery": 0.542,
+    "support_level": "少量身体辅助",
+    "domains": [
+      {
+        "domain": "语言沟通",
+        "evidence": 15,
+        "mastery": 0.533,
+        "support_level": "少量身体辅助",
+        "reliable": false
+      },
+      {
+        "domain": "生活自理",
+        "evidence": 15,
+        "mastery": 0.533,
+        "support_level": "少量身体辅助",
+        "reliable": false
+      },
+      {
+        "domain": "社会交往",
+        "evidence": 12,
+        "mastery": 0.583,
+        "support_level": "少量身体辅助",
+        "reliable": false
+      },
+      {
+        "domain": "认知",
+        "evidence": 6,
+        "mastery": 0.5,
+        "support_level": "少量身体辅助",
+        "reliable": false
+      }
+    ]
+  },
+  {
+    "anon_id": "S19",
+    "attendance": "在课",
+    "lessons_observed": 4,
+    "session_blocks": 17,
+    "evidence_total": 51,
+    "mastery": 0.216,
+    "support_level": "大量身体辅助",
+    "domains": [
+      {
+        "domain": "语言沟通",
+        "evidence": 15,
+        "mastery": 0.2,
+        "support_level": "大量身体辅助",
+        "reliable": false
+      },
+      {
+        "domain": "生活自理",
+        "evidence": 15,
+        "mastery": 0.2,
+        "support_level": "大量身体辅助",
+        "reliable": false
+      },
+      {
+        "domain": "社会交往",
+        "evidence": 12,
+        "mastery": 0.25,
+        "support_level": "大量身体辅助",
+        "reliable": false
+      },
+      {
+        "domain": "认知",
+        "evidence": 9,
+        "mastery": 0.222,
+        "support_level": "大量身体辅助",
+        "reliable": false
+      }
+    ]
+  },
+  {
+    "anon_id": "S20",
+    "attendance": "在课",
+    "lessons_observed": 4,
+    "session_blocks": 17,
+    "evidence_total": 68,
+    "mastery": 0.765,
+    "support_level": "手势辅助",
+    "domains": [
+      {
+        "domain": "语言沟通",
+        "evidence": 20,
+        "mastery": 0.7,
+        "support_level": "手势辅助",
+        "reliable": true
+      },
+      {
+        "domain": "生活自理",
+        "evidence": 20,
+        "mastery": 0.7,
+        "support_level": "手势辅助",
+        "reliable": true
+      },
+      {
+        "domain": "社会交往",
+        "evidence": 16,
+        "mastery": 0.875,
+        "support_level": "独立完成",
+        "reliable": false
+      },
+      {
+        "domain": "认知",
+        "evidence": 12,
+        "mastery": 0.833,
+        "support_level": "独立完成",
+        "reliable": false
+      }
+    ]
+  },
+  {
+    "anon_id": "S21",
+    "attendance": "在课",
+    "lessons_observed": 4,
+    "session_blocks": 18,
+    "evidence_total": 72,
+    "mastery": 0.722,
+    "support_level": "手势辅助",
+    "domains": [
+      {
+        "domain": "语言沟通",
+        "evidence": 20,
+        "mastery": 0.7,
+        "support_level": "手势辅助",
+        "reliable": true
+      },
+      {
+        "domain": "生活自理",
+        "evidence": 20,
+        "mastery": 0.7,
+        "support_level": "手势辅助",
+        "reliable": true
+      },
+      {
+        "domain": "社会交往",
+        "evidence": 16,
+        "mastery": 0.875,
+        "support_level": "独立完成",
+        "reliable": false
+      },
+      {
+        "domain": "认知",
+        "evidence": 16,
+        "mastery": 0.625,
+        "support_level": "手势辅助",
+        "reliable": false
+      }
+    ]
+  },
+  {
+    "anon_id": "S22",
+    "attendance": "在课",
+    "lessons_observed": 4,
+    "session_blocks": 12,
+    "evidence_total": 36,
+    "mastery": 0.417,
+    "support_level": "少量身体辅助",
+    "domains": [
+      {
+        "domain": "语言沟通",
+        "evidence": 15,
+        "mastery": 0.4,
+        "support_level": "少量身体辅助",
+        "reliable": false
+      },
+      {
+        "domain": "社会交往",
+        "evidence": 12,
+        "mastery": 0.5,
+        "support_level": "少量身体辅助",
+        "reliable": false
+      },
+      {
+        "domain": "生活自理",
+        "evidence": 9,
+        "mastery": 0.333,
+        "support_level": "大量身体辅助",
+        "reliable": false
+      }
+    ]
+  },
+  {
+    "anon_id": "S23",
+    "attendance": "在课",
+    "lessons_observed": 4,
+    "session_blocks": 16,
+    "evidence_total": 64,
+    "mastery": 0.703,
+    "support_level": "手势辅助",
+    "domains": [
+      {
+        "domain": "语言沟通",
+        "evidence": 20,
+        "mastery": 0.65,
+        "support_level": "手势辅助",
+        "reliable": true
+      },
+      {
+        "domain": "生活自理",
+        "evidence": 20,
+        "mastery": 0.65,
+        "support_level": "手势辅助",
+        "reliable": true
+      },
+      {
+        "domain": "社会交往",
+        "evidence": 16,
+        "mastery": 0.812,
+        "support_level": "独立完成",
+        "reliable": false
+      },
+      {
+        "domain": "认知",
+        "evidence": 8,
+        "mastery": 0.75,
+        "support_level": "手势辅助",
+        "reliable": false
+      }
+    ]
+  },
+  {
+    "anon_id": "S24",
+    "attendance": "在课",
+    "lessons_observed": 4,
+    "session_blocks": 13,
+    "evidence_total": 39,
+    "mastery": 0.308,
+    "support_level": "大量身体辅助",
+    "domains": [
+      {
+        "domain": "生活自理",
+        "evidence": 15,
+        "mastery": 0.333,
+        "support_level": "大量身体辅助",
+        "reliable": false
+      },
+      {
+        "domain": "语言沟通",
+        "evidence": 12,
+        "mastery": 0.333,
+        "support_level": "大量身体辅助",
+        "reliable": false
+      },
+      {
+        "domain": "社会交往",
+        "evidence": 9,
+        "mastery": 0.333,
+        "support_level": "大量身体辅助",
+        "reliable": false
+      },
+      {
+        "domain": "认知",
+        "evidence": 3,
+        "mastery": 0.0,
+        "support_level": "示范模仿",
+        "reliable": false
+      }
+    ]
+  },
+  {
+    "anon_id": "S25",
+    "attendance": "在课",
+    "lessons_observed": 4,
+    "session_blocks": 20,
+    "evidence_total": 60,
+    "mastery": 0.533,
+    "support_level": "少量身体辅助",
+    "domains": [
+      {
+        "domain": "语言沟通",
+        "evidence": 30,
+        "mastery": 0.533,
+        "support_level": "少量身体辅助",
+        "reliable": true
+      },
+      {
+        "domain": "未分类",
+        "evidence": 15,
+        "mastery": 0.533,
+        "support_level": "少量身体辅助",
+        "reliable": false
+      },
+      {
+        "domain": "粗大动作",
+        "evidence": 15,
+        "mastery": 0.533,
+        "support_level": "少量身体辅助",
+        "reliable": false
+      }
+    ]
+  },
+  {
+    "anon_id": "S26",
+    "attendance": "在课",
+    "lessons_observed": 4,
+    "session_blocks": 20,
+    "evidence_total": 75,
+    "mastery": 0.8,
+    "support_level": "独立完成",
+    "domains": [
+      {
+        "domain": "语言沟通",
+        "evidence": 35,
+        "mastery": 0.8,
+        "support_level": "独立完成",
+        "reliable": true
+      },
+      {
+        "domain": "未分类",
+        "evidence": 20,
+        "mastery": 0.8,
+        "support_level": "独立完成",
+        "reliable": true
+      },
+      {
+        "domain": "粗大动作",
+        "evidence": 20,
+        "mastery": 0.8,
+        "support_level": "独立完成",
+        "reliable": true
+      }
+    ]
+  },
+  {
+    "anon_id": "S27",
+    "attendance": "在课",
+    "lessons_observed": 4,
+    "session_blocks": 20,
+    "evidence_total": 75,
+    "mastery": 0.76,
+    "support_level": "手势辅助",
+    "domains": [
+      {
+        "domain": "语言沟通",
+        "evidence": 35,
+        "mastery": 0.771,
+        "support_level": "手势辅助",
+        "reliable": true
+      },
+      {
+        "domain": "未分类",
+        "evidence": 20,
+        "mastery": 0.75,
+        "support_level": "手势辅助",
+        "reliable": true
+      },
+      {
+        "domain": "粗大动作",
+        "evidence": 20,
+        "mastery": 0.75,
+        "support_level": "手势辅助",
+        "reliable": true
+      }
+    ]
+  },
+  {
+    "anon_id": "S28",
+    "attendance": "在课",
+    "lessons_observed": 1,
+    "session_blocks": 5,
+    "evidence_total": 15,
+    "mastery": 0.8,
+    "support_level": "独立完成",
+    "domains": [
+      {
+        "domain": "语言沟通",
+        "evidence": 15,
+        "mastery": 0.8,
+        "support_level": "独立完成",
+        "reliable": false
+      }
+    ]
+  },
+  {
+    "anon_id": "S29",
+    "attendance": "在课",
+    "lessons_observed": 1,
+    "session_blocks": 3,
+    "evidence_total": 12,
+    "mastery": 0.583,
+    "support_level": "少量身体辅助",
+    "domains": [
+      {
+        "domain": "粗大动作",
+        "evidence": 12,
+        "mastery": 0.583,
+        "support_level": "少量身体辅助",
+        "reliable": false
+      }
+    ]
+  },
+  {
+    "anon_id": "S30",
+    "attendance": "在课",
+    "lessons_observed": 1,
+    "session_blocks": 3,
+    "evidence_total": 12,
+    "mastery": 1.0,
+    "support_level": "独立完成",
+    "domains": [
+      {
+        "domain": "社会交往",
+        "evidence": 12,
+        "mastery": 1.0,
+        "support_level": "独立完成",
+        "reliable": false
+      }
+    ]
+  },
+  {
+    "anon_id": "S31",
+    "attendance": "在课",
+    "lessons_observed": 1,
+    "session_blocks": 3,
+    "evidence_total": 12,
+    "mastery": 0.25,
+    "support_level": "大量身体辅助",
+    "domains": [
+      {
+        "domain": "社会交往",
+        "evidence": 12,
+        "mastery": 0.25,
+        "support_level": "大量身体辅助",
+        "reliable": false
+      }
+    ]
+  },
+  {
+    "anon_id": "S32",
+    "attendance": "在课",
+    "lessons_observed": 1,
+    "session_blocks": 1,
+    "evidence_total": 4,
+    "mastery": 0.5,
+    "support_level": "少量身体辅助",
+    "domains": [
+      {
+        "domain": "社会交往",
+        "evidence": 4,
+        "mastery": 0.5,
+        "support_level": "少量身体辅助",
+        "reliable": false
+      }
+    ]
+  },
+  {
+    "anon_id": "S33",
+    "attendance": "在课",
+    "lessons_observed": 1,
+    "session_blocks": 3,
+    "evidence_total": 12,
+    "mastery": 0.5,
+    "support_level": "少量身体辅助",
+    "domains": [
+      {
+        "domain": "社会交往",
+        "evidence": 12,
+        "mastery": 0.5,
+        "support_level": "少量身体辅助",
+        "reliable": false
+      }
+    ]
+  },
+  {
+    "anon_id": "S34",
+    "attendance": "在课",
+    "lessons_observed": 1,
+    "session_blocks": 2,
+    "evidence_total": 8,
+    "mastery": 1.0,
+    "support_level": "独立完成",
+    "domains": [
+      {
+        "domain": "社会交往",
+        "evidence": 8,
+        "mastery": 1.0,
+        "support_level": "独立完成",
+        "reliable": false
+      }
+    ]
+  },
+  {
+    "anon_id": "S35",
+    "attendance": "在课",
+    "lessons_observed": 1,
+    "session_blocks": 3,
+    "evidence_total": 12,
+    "mastery": 0.583,
+    "support_level": "少量身体辅助",
+    "domains": [
+      {
+        "domain": "社会交往",
+        "evidence": 12,
+        "mastery": 0.583,
+        "support_level": "少量身体辅助",
+        "reliable": false
+      }
+    ]
+  },
+  {
+    "anon_id": "S36",
+    "attendance": "在课",
+    "lessons_observed": 1,
+    "session_blocks": 3,
+    "evidence_total": 12,
+    "mastery": 1.0,
+    "support_level": "独立完成",
+    "domains": [
+      {
+        "domain": "社会交往",
+        "evidence": 12,
+        "mastery": 1.0,
+        "support_level": "独立完成",
+        "reliable": false
+      }
+    ]
+  },
+  {
+    "anon_id": "S37",
+    "attendance": "缺席",
+    "lessons_observed": 1,
+    "session_blocks": 0,
+    "evidence_total": 0,
+    "mastery": 0.0,
+    "support_level": "未参与",
+    "domains": []
+  }
+]

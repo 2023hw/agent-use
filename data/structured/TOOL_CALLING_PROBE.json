@@ -1,0 +1,473 @@
+{
+  "provider": "zhipu",
+  "model": "glm-4-flash",
+  "tools": [
+    "list_children",
+    "get_child_profile",
+    "get_class_summary"
+  ],
+  "expect_seq": [
+    "list_children",
+    "get_child_profile",
+    "get_child_profile"
+  ],
+  "expect_ids": [
+    "S01",
+    "S37"
+  ],
+  "mock_link_check": {
+    "seq_ok": false,
+    "seq": [
+      "list_children",
+      "get_child_profile"
+    ],
+    "ids_ok": false,
+    "ids": [
+      "示例"
+    ],
+    "answer_ok": false,
+    "missing_in_final": [
+      "37",
+      "大量身体辅助",
+      "未参与"
+    ],
+    "converged": true,
+    "no_parse_error": true,
+    "no_tool_error": false,
+    "unused": [
+      "get_class_summary"
+    ],
+    "steps": 3,
+    "tool_calls": 2,
+    "elapsed_s": 0.0,
+    "tokens": 0
+  },
+  "runs": [
+    {
+      "judge": {
+        "seq_ok": true,
+        "seq": [
+          "list_children",
+          "get_child_profile",
+          "get_child_profile"
+        ],
+        "ids_ok": true,
+        "ids": [
+          "S01",
+          "S37"
+        ],
+        "answer_ok": true,
+        "missing_in_final": [],
+        "converged": true,
+        "no_parse_error": true,
+        "no_tool_error": true,
+        "unused": [
+          "get_class_summary"
+        ],
+        "steps": 4,
+        "tool_calls": 3,
+        "elapsed_s": 5.55,
+        "tokens": 2483
+      },
+      "error": null,
+      "transcript": {
+        "provider": "zhipu",
+        "model": "glm-4-flash",
+        "mocked": false,
+        "tools": [
+          "list_children",
+          "get_child_profile",
+          "get_class_summary"
+        ],
+        "used_tools": [
+          "list_children",
+          "get_child_profile"
+        ],
+        "unused_tools": [
+          "get_class_summary"
+        ],
+        "stopped_reason": "finish",
+        "elapsed_s": 5.55,
+        "usage": {
+          "prompt": 2412,
+          "completion": 71,
+          "total": 2483,
+          "steps": 4,
+          "tool_calls": 3
+        },
+        "steps": [
+          {
+            "index": 1,
+            "thought": "",
+            "result": "",
+            "elapsed_s": 0.91,
+            "calls": [
+              {
+                "id": "call_-7183855448540308122",
+                "name": "list_children",
+                "arguments": {},
+                "parse_error": ""
+              }
+            ],
+            "observations": [
+              {
+                "id": "call_-7183855448540308122",
+                "name": "list_children",
+                "arguments": {},
+                "content": "{\"count\": 37, \"ids\": [\"S01\", \"S02\", \"S03\", \"S04\", \"S05\", \"S06\", \"S07\", \"S08\", \"S09\", \"S10\", \"S11\", \"S12\", \"S13\", \"S14\", \"S15\", \"S16\", \"S17\", \"S18\", \"S19\", \"S20\", \"S21\", \"S22\", \"S23\", \"S24\", \"S25\", \"S26\", \"S27\", \"S28\", \"S29\", \"S30\", \"S31\", \"S32\", \"S33\", \"S34\", \"S35\", \"S36\", \"S37\"]}",
+                "error": ""
+              }
+            ]
+          },
+          {
+            "index": 2,
+            "thought": "",
+            "result": "",
+            "elapsed_s": 0.92,
+            "calls": [
+              {
+                "id": "call_-7183849298147146298",
+                "name": "get_child_profile",
+                "arguments": {
+                  "anon_id": "S01"
+                },
+                "parse_error": ""
+              }
+            ],
+            "observations": [
+              {
+                "id": "call_-7183849298147146298",
+                "name": "get_child_profile",
+                "arguments": {
+                  "anon_id": "S01"
+                },
+                "content": "{\"anon_id\": \"S01\", \"mastery\": 0.352, \"support_level\": \"大量身体辅助\", \"attendance\": \"在课\", \"lessons_observed\": 4}",
+                "error": ""
+              }
+            ]
+          },
+          {
+            "index": 3,
+            "thought": "",
+            "result": "",
+            "elapsed_s": 1.0,
+            "calls": [
+              {
+                "id": "call_-7183861461494528442",
+                "name": "get_child_profile",
+                "arguments": {
+                  "anon_id": "S37"
+                },
+                "parse_error": ""
+              }
+            ],
+            "observations": [
+              {
+                "id": "call_-7183861461494528442",
+                "name": "get_child_profile",
+                "arguments": {
+                  "anon_id": "S37"
+                },
+                "content": "{\"anon_id\": \"S37\", \"mastery\": 0.0, \"support_level\": \"未参与\", \"attendance\": \"缺席\", \"lessons_observed\": 1}",
+                "error": ""
+              }
+            ]
+          },
+          {
+            "index": 4,
+            "thought": "1. 本班一共收录了37名幼儿的档案。\n2. 幼儿 S01 的支持层级是大量身体辅助，幼儿 S37 的支持层级是未参与。",
+            "result": "finish",
+            "elapsed_s": 2.72,
+            "calls": [],
+            "observations": []
+          }
+        ],
+        "final_text": "1. 本班一共收录了37名幼儿的档案。\n2. 幼儿 S01 的支持层级是大量身体辅助，幼儿 S37 的支持层级是未参与。"
+      }
+    },
+    {
+      "judge": {
+        "seq_ok": true,
+        "seq": [
+          "list_children",
+          "get_child_profile",
+          "get_child_profile"
+        ],
+        "ids_ok": true,
+        "ids": [
+          "S01",
+          "S37"
+        ],
+        "answer_ok": true,
+        "missing_in_final": [],
+        "converged": true,
+        "no_parse_error": true,
+        "no_tool_error": true,
+        "unused": [
+          "get_class_summary"
+        ],
+        "steps": 4,
+        "tool_calls": 3,
+        "elapsed_s": 10.03,
+        "tokens": 2477
+      },
+      "error": null,
+      "transcript": {
+        "provider": "zhipu",
+        "model": "glm-4-flash",
+        "mocked": false,
+        "tools": [
+          "list_children",
+          "get_child_profile",
+          "get_class_summary"
+        ],
+        "used_tools": [
+          "list_children",
+          "get_child_profile"
+        ],
+        "unused_tools": [
+          "get_class_summary"
+        ],
+        "stopped_reason": "finish",
+        "elapsed_s": 10.03,
+        "usage": {
+          "prompt": 2412,
+          "completion": 65,
+          "total": 2477,
+          "steps": 4,
+          "tool_calls": 3
+        },
+        "steps": [
+          {
+            "index": 1,
+            "thought": "",
+            "result": "",
+            "elapsed_s": 2.59,
+            "calls": [
+              {
+                "id": "call_-7183842701077373776",
+                "name": "list_children",
+                "arguments": {},
+                "parse_error": ""
+              }
+            ],
+            "observations": [
+              {
+                "id": "call_-7183842701077373776",
+                "name": "list_children",
+                "arguments": {},
+                "content": "{\"count\": 37, \"ids\": [\"S01\", \"S02\", \"S03\", \"S04\", \"S05\", \"S06\", \"S07\", \"S08\", \"S09\", \"S10\", \"S11\", \"S12\", \"S13\", \"S14\", \"S15\", \"S16\", \"S17\", \"S18\", \"S19\", \"S20\", \"S21\", \"S22\", \"S23\", \"S24\", \"S25\", \"S26\", \"S27\", \"S28\", \"S29\", \"S30\", \"S31\", \"S32\", \"S33\", \"S34\", \"S35\", \"S36\", \"S37\"]}",
+                "error": ""
+              }
+            ]
+          },
+          {
+            "index": 2,
+            "thought": "",
+            "result": "",
+            "elapsed_s": 1.35,
+            "calls": [
+              {
+                "id": "call_-7183825658647149409",
+                "name": "get_child_profile",
+                "arguments": {
+                  "anon_id": "S01"
+                },
+                "parse_error": ""
+              }
+            ],
+            "observations": [
+              {
+                "id": "call_-7183825658647149409",
+                "name": "get_child_profile",
+                "arguments": {
+                  "anon_id": "S01"
+                },
+                "content": "{\"anon_id\": \"S01\", \"mastery\": 0.352, \"support_level\": \"大量身体辅助\", \"attendance\": \"在课\", \"lessons_observed\": 4}",
+                "error": ""
+              }
+            ]
+          },
+          {
+            "index": 3,
+            "thought": "",
+            "result": "",
+            "elapsed_s": 3.92,
+            "calls": [
+              {
+                "id": "call_-7183833389588282101",
+                "name": "get_child_profile",
+                "arguments": {
+                  "anon_id": "S37"
+                },
+                "parse_error": ""
+              }
+            ],
+            "observations": [
+              {
+                "id": "call_-7183833389588282101",
+                "name": "get_child_profile",
+                "arguments": {
+                  "anon_id": "S37"
+                },
+                "content": "{\"anon_id\": \"S37\", \"mastery\": 0.0, \"support_level\": \"未参与\", \"attendance\": \"缺席\", \"lessons_observed\": 1}",
+                "error": ""
+              }
+            ]
+          },
+          {
+            "index": 4,
+            "thought": "本班一共收录了37名幼儿的档案。其中，S01幼儿的支持层级是大量身体辅助，S37幼儿的支持层级是未参与。",
+            "result": "finish",
+            "elapsed_s": 2.17,
+            "calls": [],
+            "observations": []
+          }
+        ],
+        "final_text": "本班一共收录了37名幼儿的档案。其中，S01幼儿的支持层级是大量身体辅助，S37幼儿的支持层级是未参与。"
+      }
+    },
+    {
+      "judge": {
+        "seq_ok": true,
+        "seq": [
+          "list_children",
+          "get_child_profile",
+          "get_child_profile"
+        ],
+        "ids_ok": true,
+        "ids": [
+          "S01",
+          "S37"
+        ],
+        "answer_ok": true,
+        "missing_in_final": [],
+        "converged": true,
+        "no_parse_error": true,
+        "no_tool_error": true,
+        "unused": [
+          "get_class_summary"
+        ],
+        "steps": 4,
+        "tool_calls": 3,
+        "elapsed_s": 4.74,
+        "tokens": 2479
+      },
+      "error": null,
+      "transcript": {
+        "provider": "zhipu",
+        "model": "glm-4-flash",
+        "mocked": false,
+        "tools": [
+          "list_children",
+          "get_child_profile",
+          "get_class_summary"
+        ],
+        "used_tools": [
+          "list_children",
+          "get_child_profile"
+        ],
+        "unused_tools": [
+          "get_class_summary"
+        ],
+        "stopped_reason": "finish",
+        "elapsed_s": 4.74,
+        "usage": {
+          "prompt": 2412,
+          "completion": 67,
+          "total": 2479,
+          "steps": 4,
+          "tool_calls": 3
+        },
+        "steps": [
+          {
+            "index": 1,
+            "thought": "",
+            "result": "",
+            "elapsed_s": 0.94,
+            "calls": [
+              {
+                "id": "call_-7183867371369527724",
+                "name": "list_children",
+                "arguments": {},
+                "parse_error": ""
+              }
+            ],
+            "observations": [
+              {
+                "id": "call_-7183867371369527724",
+                "name": "list_children",
+                "arguments": {},
+                "content": "{\"count\": 37, \"ids\": [\"S01\", \"S02\", \"S03\", \"S04\", \"S05\", \"S06\", \"S07\", \"S08\", \"S09\", \"S10\", \"S11\", \"S12\", \"S13\", \"S14\", \"S15\", \"S16\", \"S17\", \"S18\", \"S19\", \"S20\", \"S21\", \"S22\", \"S23\", \"S24\", \"S25\", \"S26\", \"S27\", \"S28\", \"S29\", \"S30\", \"S31\", \"S32\", \"S33\", \"S34\", \"S35\", \"S36\", \"S37\"]}",
+                "error": ""
+              }
+            ]
+          },
+          {
+            "index": 2,
+            "thought": "",
+            "result": "",
+            "elapsed_s": 1.14,
+            "calls": [
+              {
+                "id": "call_-7183819886211098005",
+                "name": "get_child_profile",
+                "arguments": {
+                  "anon_id": "S01"
+                },
+                "parse_error": ""
+              }
+            ],
+            "observations": [
+              {
+                "id": "call_-7183819886211098005",
+                "name": "get_child_profile",
+                "arguments": {
+                  "anon_id": "S01"
+                },
+                "content": "{\"anon_id\": \"S01\", \"mastery\": 0.352, \"support_level\": \"大量身体辅助\", \"attendance\": \"在课\", \"lessons_observed\": 4}",
+                "error": ""
+              }
+            ]
+          },
+          {
+            "index": 3,
+            "thought": "",
+            "result": "",
+            "elapsed_s": 0.85,
+            "calls": [
+              {
+                "id": "call_-7183849916622432890",
+                "name": "get_child_profile",
+                "arguments": {
+                  "anon_id": "S37"
+                },
+                "parse_error": ""
+              }
+            ],
+            "observations": [
+              {
+                "id": "call_-7183849916622432890",
+                "name": "get_child_profile",
+                "arguments": {
+                  "anon_id": "S37"
+                },
+                "content": "{\"anon_id\": \"S37\", \"mastery\": 0.0, \"support_level\": \"未参与\", \"attendance\": \"缺席\", \"lessons_observed\": 1}",
+                "error": ""
+              }
+            ]
+          },
+          {
+            "index": 4,
+            "thought": "1. 本班一共收录了37名幼儿的档案。\n2. S01幼儿的支持层级是大量身体辅助，S37幼儿的支持层级是未参与。",
+            "result": "finish",
+            "elapsed_s": 1.81,
+            "calls": [],
+            "observations": []
+          }
+        ],
+        "final_text": "1. 本班一共收录了37名幼儿的档案。\n2. S01幼儿的支持层级是大量身体辅助，S37幼儿的支持层级是未参与。"
+      }
+    }
+  ]
+}

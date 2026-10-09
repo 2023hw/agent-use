@@ -1,0 +1,7 @@
+﻿
+Name             Length LastWriteTime      
+----             ------ -------------      
+debug_columns.py   2078 2026/09/29 10:05:25
+COLUMNS_DEBUG.md  14510 2026/09/29 10:03:52
+
+

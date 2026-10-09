@@ -1,0 +1,255 @@
+{
+  "title": "认知课《国庆节到了》",
+  "class_label": "混龄康教班（已匿名）",
+  "age_range": "3-9岁",
+  "theme": "国庆节到了",
+  "class_size": 12,
+  "total_duration_min": 30,
+  "date_range": "2026年10月12日—10月16日",
+  "class_objectives_text": "1. 能说出国庆节的日期和庆祝方式。\n2. 能通过图片和实物认出常见的国庆节装饰物品。\n3. 能跟随指令完成简单的国庆节主题手工作业。",
+  "main_domain": "认知",
+  "objectives": [
+    {
+      "level": "A",
+      "domain": "认知",
+      "support_level": "示范模仿",
+      "text": "在课堂上能够保持坐姿 5 分钟",
+      "observable_verb": "保持",
+      "criteria": "全班 12 名中至少 8 名能达到"
+    },
+    {
+      "level": "B",
+      "domain": "认知",
+      "support_level": "示范模仿",
+      "text": "能在老师示范后说出与国庆节相关的 1 个词语",
+      "observable_verb": "说出",
+      "criteria": "全班 12 名中至少 6 名能达到"
+    },
+    {
+      "level": "C",
+      "domain": "认知",
+      "support_level": "独立完成",
+      "text": "能独立说出 3 个与国庆节相关的词语",
+      "observable_verb": "说出",
+      "criteria": "全班 12 名中至少 10 名能达到"
+    },
+    {
+      "level": "A",
+      "domain": "认知",
+      "support_level": "示范模仿",
+      "text": "能在老师示范后指认出 1 种国庆节相关的物品",
+      "observable_verb": "指认",
+      "criteria": "全班 12 名中至少 2 名能达到"
+    },
+    {
+      "level": "B",
+      "domain": "认知",
+      "support_level": "示范模仿",
+      "text": "能在老师示范后指出 2 种国庆节相关的物品",
+      "observable_verb": "指出",
+      "criteria": "全班 12 名中至少 6 名能达到"
+    },
+    {
+      "level": "C",
+      "domain": "认知",
+      "support_level": "独立完成",
+      "text": "能独立配对 3 种国庆节相关的物品",
+      "observable_verb": "配对",
+      "criteria": "全班 12 名中至少 10 名能达到"
+    },
+    {
+      "level": "A",
+      "domain": "认知",
+      "support_level": "手势辅助",
+      "text": "在老师的帮助下，能完成 2 个与国庆节相关的简单拼图",
+      "observable_verb": "完成",
+      "criteria": "全班 12 名中至少 3 名能达到"
+    },
+    {
+      "level": "B",
+      "domain": "认知",
+      "support_level": "少量身体辅助",
+      "text": "在老师的少量帮助下，能完成 4 个与国庆节相关的拼图",
+      "observable_verb": "完成",
+      "criteria": "全班 12 名中至少 6 名能达到"
+    }
+  ],
+  "materials": [
+    "国旗图案模板纸若干张",
+    "红、黄、蓝颜料盒",
+    "画笔",
+    "剪刀",
+    "彩纸",
+    "双面胶",
+    "国庆节主题拼图",
+    "国庆节主题故事书"
+  ],
+  "environment": "活动室布置成国庆节氛围，悬挂国旗，摆放国庆节主题装饰品。",
+  "safety_notes": "活动材料均为大尺寸、无尖角，使用前检查有无破损；精细动作环节需教师全程在旁，避免幼儿将小件材料放入口中。",
+  "steps": [
+    {
+      "index": 1,
+      "name": "师生问好",
+      "duration_min": 2,
+      "teacher_script": "师：摇铃鼓，小朋友们请坐好，今天我们要一起学习国庆节的知识了。",
+      "child_action": "幼儿跟随教师的指令坐好，准备开始上课。",
+      "visual_cue": "教师摇铃鼓，并指向座位。",
+      "scaffolds": [
+        "教师走到需要较多支持的幼儿旁边，轻拍他们的肩膀，引导他们坐好。"
+      ],
+      "observation_points": [
+        "所有幼儿是否都能坐好，是否需要教师额外的引导。"
+      ]
+    },
+    {
+      "index": 2,
+      "name": "点名互动",
+      "duration_min": 2,
+      "teacher_script": "师：老师要看看今天哪几位小朋友来了。点到名字的小朋友，请举手，或者说「到」。",
+      "child_action": "听到自己的名字后举手或用手指自己",
+      "visual_cue": "视觉：点名卡 + 幼儿照片贴板",
+      "scaffolds": [
+        "把点名卡放到幼儿视线水平",
+        "点到名字后多等 3 秒，不替他回答"
+      ],
+      "observation_points": [
+        "「点名互动」中幼儿是否需要提示才能完成"
+      ]
+    },
+    {
+      "index": 3,
+      "name": "热身律动",
+      "duration_min": 3,
+      "teacher_script": "师：现在我们来做一个国庆节主题的律动，小朋友们准备好了吗？",
+      "child_action": "幼儿跟随教师的指令进行律动。",
+      "visual_cue": "教师展示国庆节相关的手势或动作。",
+      "scaffolds": [
+        "教师对需要较多支持的幼儿进行动作分解，逐步引导他们完成律动。"
+      ],
+      "observation_points": [
+        "幼儿是否能跟随节奏完成律动。"
+      ]
+    },
+    {
+      "index": 4,
+      "name": "活动导入",
+      "duration_min": 4,
+      "teacher_script": "师：看，老师手里有一面小旗，旗面是红色的，上面还有五颗星星，这是我们的国庆节小旗。",
+      "child_action": "幼儿观察教师手中的小旗。",
+      "visual_cue": "教师展示小旗，并指向旗上的星星。",
+      "scaffolds": [
+        "教师将小旗放到需要较多支持的幼儿视线水平，并轻声解释。"
+      ],
+      "observation_points": [
+        "幼儿是否能观察并描述小旗的特征。"
+      ]
+    },
+    {
+      "index": 5,
+      "name": "核心活动",
+      "duration_min": 12,
+      "teacher_script": "师：现在我们来玩一个国庆节物品配对的游戏，请小朋友们找出和老师手里一样的物品。",
+      "child_action": "幼儿在教具中寻找与教师手中相同的物品。",
+      "visual_cue": "教师展示手中的物品，并指向教具架。",
+      "scaffolds": [
+        "教师对需要较多支持的幼儿进行个别指导，帮助他们找到正确的物品。"
+      ],
+      "observation_points": [
+        "幼儿是否能正确配对物品。"
+      ]
+    },
+    {
+      "index": 6,
+      "name": "复练与小结",
+      "duration_min": 5,
+      "teacher_script": "师：刚才我们学习了国庆节的物品，现在请小朋友们自己来说一说，你们知道哪些国庆节的物品？",
+      "child_action": "幼儿独立说出与国庆节相关的物品。",
+      "visual_cue": "教师用手指向正在回答的幼儿。",
+      "scaffolds": [
+        "教师对需要较多支持的幼儿进行提示，帮助他们回忆物品的名称。"
+      ],
+      "observation_points": [
+        "幼儿是否能独立说出与国庆节相关的物品。"
+      ]
+    },
+    {
+      "index": 7,
+      "name": "结束与延伸",
+      "duration_min": 2,
+      "teacher_script": "师：今天我们学习了国庆节的知识，回家后可以和爸爸妈妈一起找找家里的国庆节装饰品，明天我们来分享。",
+      "child_action": "幼儿听教师讲解，并思考如何与家人分享。",
+      "visual_cue": "教师展示国庆节装饰品的图片。",
+      "scaffolds": [
+        "教师鼓励幼儿与家人分享学习内容，并给予适当的表扬和鼓励。"
+      ],
+      "observation_points": [
+        "幼儿是否能理解并接受家庭延伸的任务。"
+      ]
+    }
+  ],
+  "individualized_goals": [
+    {
+      "level": "A",
+      "share_of_class": "约 3 名",
+      "goal": "说出国庆节的日期，并模仿庆祝方式的动作",
+      "baseline_hint": "能简单说出日期，但对庆祝方式不熟悉",
+      "evaluation_method": "观察幼儿在活动中模仿的动作和参与度",
+      "follow_up": "提供图片和视频辅助，帮助幼儿更好地理解庆祝方式"
+    },
+    {
+      "level": "B",
+      "share_of_class": "约 3 名",
+      "goal": "认出至少三种国庆节装饰物品，并能说出其名称",
+      "baseline_hint": "能认出少量装饰物品，但不能准确说出名称",
+      "evaluation_method": "记录幼儿在活动中正确认出的装饰物品数量",
+      "follow_up": "增加装饰物品的种类，并提供图片辅助"
+    },
+    {
+      "level": "C",
+      "share_of_class": "约 6 名",
+      "goal": "跟随指令完成国庆节主题手工作业，如制作小旗或拼图",
+      "baseline_hint": "能在成人辅助下完成简单的手工作业",
+      "evaluation_method": "观察幼儿完成手工作业的速度和质量",
+      "follow_up": "逐步减少成人辅助，提高幼儿的独立操作能力"
+    }
+  ],
+  "alternatives": [
+    {
+      "situation": "幼儿无法完成指认或命名",
+      "alternative_participation": "改为让幼儿用手指出、点头示意，或从两个选项中挑选一个",
+      "alternative_evaluation": "能在两个选项中正确选出，即视为达成"
+    },
+    {
+      "situation": "幼儿无法用语言表达",
+      "alternative_participation": "改为提供图片选择、点头摇头、或用手指点",
+      "alternative_evaluation": "能用非语言方式正确回应，即视为达成"
+    },
+    {
+      "situation": "幼儿情绪不稳不愿参与",
+      "alternative_participation": "允许先旁观，老师把他安排在同伴旁边，待情绪平稳后再邀请",
+      "alternative_evaluation": "能在活动结束前加入并完成一次回应，即视为达成"
+    },
+    {
+      "situation": "幼儿精细动作完成困难",
+      "alternative_participation": "改为使用更大的材料，或由老师扶住材料、幼儿完成最后一步",
+      "alternative_evaluation": "能在辅助下完成最后一个动作，即视为达成"
+    }
+  ],
+  "assessment": {
+    "A": "能在身体辅助或示范下参与活动并有回应，即视为达成",
+    "B": "能在手势提示下完成核心操作，提示不超过 2 次，即视为达成",
+    "C": "能独立完成核心操作并说出名称，即视为达成"
+  },
+  "extension": "1. 生活延伸：组织幼儿观察家中的国庆节装饰，讨论其象征意义。\n2. 家园共育：鼓励家长与幼儿一起制作国庆节主题的手工作品。",
+  "reflection_slots": "（此处留白，供带班老师课后填写）",
+  "key_points": {
+    "focus": "国庆节的日期和庆祝方式的认识",
+    "difficulty": "国庆节装饰物品的认出和手工作业的完成"
+  },
+  "home_extension": "请与幼儿一起寻找家中的国庆节装饰，并讨论它们的含义。",
+  "reflection_points": [
+    "本次活动中，哪些幼儿需要比预设更多的支持？",
+    "哪个环节的提示可以再减少一些？",
+    "复练次数是否足够？下次是否需要增加？"
+  ]
+}

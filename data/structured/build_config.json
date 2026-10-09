@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "_comment": [
+    "教案渲染流水线的外置配置。改这里即可，不必改代码。",
+    "corpus_dir             : 范例语料目录（.docx 原件所在处）。4 个脚本共用，原先各自硬编码。",
+    "deliver                : 默认交付清单（只渲染这些主题）；留空数组 = 全量。",
+    "themes.<标题>.ladder_source  : 目标阶梯取自哪份范例（须出现在 goal_ladder.json 的 docs 里）。",
+    "themes.<标题>.manual_ladder  : 手工拆分的阶梯，覆盖 ladder_source。范例原文目标挤在一格且无编号、",
+    "                              自动解析不出时才用；每项 [编号, 条文]，编号须为不重复的正整数字符串。",
+    "themes.<标题>.split_by_class : true = 按班级拆成多个独立文件；false = 全班一张表。",
+    "themes.<标题>.class_order    : 可选，强制班级输出顺序；缺省按幼儿编号（S01 所在班在前）。"
+  ],
+  "corpus_dir": "C:\\Users\\17093\\Desktop\\homework\\agent use idea",
+  "deliver": ["认知课《国庆节到了》"],
+  "themes": {
+    "认知课《国庆节到了》": {
+      "ladder_source": "第五周-童心向党(1).docx",
+      "manual_ladder": [
+        ["1", "整节课堂能安坐好不走出位置不闹情绪"],
+        ["2", "能在身体辅助下完成指认国旗"],
+        ["3", "能在少量手势辅助下完成指认国旗"],
+        ["4", "能自己独立完成指认国旗"],
+        ["5", "能自己看图表达国旗的颜色和五角星"],
+        ["6", "能参与国庆节的庆祝游戏"]
+      ],
+      "split_by_class": true
+    },
+    "认知课《秋天的水果》": {
+      "ladder_source": "第四周-能干的我(1).docx",
+      "split_by_class": false
+    },
+    "生活自理课《穿鞋子》": {
+      "ladder_source": "第四周-三月三(1).docx",
+      "split_by_class": false
+    },
+    "粗大动作课《音乐做动作》": {
+      "ladder_source": "第二周-动物的家(1).docx",
+      "split_by_class": false
+    }
+  }
+}

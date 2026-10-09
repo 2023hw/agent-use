@@ -1,0 +1,649 @@
+{
+  "corpus": {
+    "files": [
+      {
+        "file": "第一周-劳动最快乐(1).docx",
+        "chars": 1666,
+        "banned_total": 2,
+        "banned_exempt": 2,
+        "banned_body": 0,
+        "name_hits": 15
+      },
+      {
+        "file": "第一周-快乐六一(1).docx",
+        "chars": 2091,
+        "banned_total": 2,
+        "banned_exempt": 2,
+        "banned_body": 0,
+        "name_hits": 14
+      },
+      {
+        "file": "第一周-春天的踪影(1).docx",
+        "chars": 1723,
+        "banned_total": 2,
+        "banned_exempt": 2,
+        "banned_body": 0,
+        "name_hits": 12
+      },
+      {
+        "file": "第一周-童心向党(1).docx",
+        "chars": 2362,
+        "banned_total": 2,
+        "banned_exempt": 2,
+        "banned_body": 0,
+        "name_hits": 14
+      },
+      {
+        "file": "第三周-浓浓端午节(1).docx",
+        "chars": 1758,
+        "banned_total": 2,
+        "banned_exempt": 2,
+        "banned_body": 0,
+        "name_hits": 14
+      },
+      {
+        "file": "第二周-动物的家(1).docx",
+        "chars": 2368,
+        "banned_total": 2,
+        "banned_exempt": 2,
+        "banned_body": 0,
+        "name_hits": 15
+      },
+      {
+        "file": "第二周-我和我的同伴-1.docx",
+        "chars": 1685,
+        "banned_total": 2,
+        "banned_exempt": 2,
+        "banned_body": 0,
+        "name_hits": 13
+      },
+      {
+        "file": "第二周-春天在哪里(1).docx",
+        "chars": 1794,
+        "banned_total": 2,
+        "banned_exempt": 2,
+        "banned_body": 0,
+        "name_hits": 12
+      },
+      {
+        "file": "第五周-童心向党(1).docx",
+        "chars": 2408,
+        "banned_total": 2,
+        "banned_exempt": 2,
+        "banned_body": 0,
+        "name_hits": 14
+      },
+      {
+        "file": "第四周-三月三(1).docx",
+        "chars": 1922,
+        "banned_total": 2,
+        "banned_exempt": 2,
+        "banned_body": 0,
+        "name_hits": 12
+      },
+      {
+        "file": "第四周-浓浓端午节(1).docx",
+        "chars": 1855,
+        "banned_total": 2,
+        "banned_exempt": 2,
+        "banned_body": 0,
+        "name_hits": 15
+      },
+      {
+        "file": "第四周-清凉夏日(1).docx",
+        "chars": 2724,
+        "banned_total": 2,
+        "banned_exempt": 2,
+        "banned_body": 0,
+        "name_hits": 14
+      },
+      {
+        "file": "第四周-能干的我(1).docx",
+        "chars": 1752,
+        "banned_total": 2,
+        "banned_exempt": 2,
+        "banned_body": 0,
+        "name_hits": 15
+      },
+      {
+        "file": "闪电班4月21日主题教案(1).docx",
+        "chars": 2012,
+        "banned_total": 2,
+        "banned_exempt": 2,
+        "banned_body": 0,
+        "name_hits": 10
+      }
+    ],
+    "file_count": 14,
+    "files_with_body_banned": 0,
+    "banned_total": 28,
+    "banned_exempt": 28,
+    "banned_body": 0,
+    "name_hits": 189,
+    "chars": 28120,
+    "body_leak_rate": 0.0
+  },
+  "products": {
+    "files": [
+      {
+        "file": "认知课《国庆节到了》-火箭班.docx",
+        "chars": 6999,
+        "banned_total": 4,
+        "banned_exempt": 4,
+        "banned_body": 0,
+        "name_hits": 0
+      },
+      {
+        "file": "认知课《国庆节到了》-闪电班.docx",
+        "chars": 3952,
+        "banned_total": 4,
+        "banned_exempt": 4,
+        "banned_body": 0,
+        "name_hits": 0
+      }
+    ],
+    "file_count": 2,
+    "files_with_body_banned": 0,
+    "banned_total": 8,
+    "banned_exempt": 8,
+    "banned_body": 0,
+    "name_hits": 0,
+    "chars": 10951,
+    "body_leak_rate": 0.0
+  },
+  "roster_total": 37,
+  "roster": {
+    "rows_total": 37,
+    "unique_codes": 37,
+    "coverage": 1.0,
+    "legal_combos": [
+      "123",
+      "124",
+      "145",
+      "1456"
+    ],
+    "combo_ok": 37,
+    "combo_ok_rate": 1.0,
+    "baseline_ok": 37,
+    "baseline_ok_rate": 1.0,
+    "combo_hist": {
+      "123": 12,
+      "124": 8,
+      "145": 3,
+      "1456": 14
+    },
+    "layer_dist": {
+      "L1": 12,
+      "L2": 8,
+      "L3": 3,
+      "L4": 14
+    },
+    "moves": {
+      "up": 12,
+      "down": 0,
+      "keep": 25,
+      "absent": 3
+    },
+    "rows": [
+      {
+        "file": "认知课《国庆节到了》-火箭班.docx",
+        "code": "S01",
+        "goal": "123",
+        "baseline": "PEP",
+        "absent": false,
+        "combo_ok": true,
+        "baseline_ok": true
+      },
+      {
+        "file": "认知课《国庆节到了》-火箭班.docx",
+        "code": "S02",
+        "goal": "1456",
+        "baseline": "PEPP",
+        "absent": false,
+        "combo_ok": true,
+        "baseline_ok": true
+      },
+      {
+        "file": "认知课《国庆节到了》-火箭班.docx",
+        "code": "S03",
+        "goal": "1456",
+        "baseline": "PEPP",
+        "absent": false,
+        "combo_ok": true,
+        "baseline_ok": true
+      },
+      {
+        "file": "认知课《国庆节到了》-火箭班.docx",
+        "code": "S04",
+        "goal": "145",
+        "baseline": "PEE",
+        "absent": false,
+        "combo_ok": true,
+        "baseline_ok": true
+      },
+      {
+        "file": "认知课《国庆节到了》-火箭班.docx",
+        "code": "S05",
+        "goal": "1456",
+        "baseline": "PEPP",
+        "absent": false,
+        "combo_ok": true,
+        "baseline_ok": true
+      },
+      {
+        "file": "认知课《国庆节到了》-火箭班.docx",
+        "code": "S06",
+        "goal": "1456",
+        "baseline": "PEPP",
+        "absent": false,
+        "combo_ok": true,
+        "baseline_ok": true
+      },
+      {
+        "file": "认知课《国庆节到了》-火箭班.docx",
+        "code": "S07",
+        "goal": "1456",
+        "baseline": "PPPP",
+        "absent": false,
+        "combo_ok": true,
+        "baseline_ok": true
+      },
+      {
+        "file": "认知课《国庆节到了》-火箭班.docx",
+        "code": "S08",
+        "goal": "123",
+        "baseline": "PEE",
+        "absent": false,
+        "combo_ok": true,
+        "baseline_ok": true
+      },
+      {
+        "file": "认知课《国庆节到了》-火箭班.docx",
+        "code": "S09",
+        "goal": "1456",
+        "baseline": "P   PPP",
+        "absent": false,
+        "combo_ok": true,
+        "baseline_ok": true
+      },
+      {
+        "file": "认知课《国庆节到了》-火箭班.docx",
+        "code": "S10",
+        "goal": "1456",
+        "baseline": "PPPP",
+        "absent": false,
+        "combo_ok": true,
+        "baseline_ok": true
+      },
+      {
+        "file": "认知课《国庆节到了》-火箭班.docx",
+        "code": "S11",
+        "goal": "123",
+        "baseline": "PEE",
+        "absent": false,
+        "combo_ok": true,
+        "baseline_ok": true
+      },
+      {
+        "file": "认知课《国庆节到了》-火箭班.docx",
+        "code": "S12",
+        "goal": "123",
+        "baseline": "PEE",
+        "absent": false,
+        "combo_ok": true,
+        "baseline_ok": true
+      },
+      {
+        "file": "认知课《国庆节到了》-火箭班.docx",
+        "code": "S13",
+        "goal": "124",
+        "baseline": "PEE",
+        "absent": false,
+        "combo_ok": true,
+        "baseline_ok": true
+      },
+      {
+        "file": "认知课《国庆节到了》-火箭班.docx",
+        "code": "S14",
+        "goal": "1456",
+        "baseline": "PPPP",
+        "absent": false,
+        "combo_ok": true,
+        "baseline_ok": true
+      },
+      {
+        "file": "认知课《国庆节到了》-火箭班.docx",
+        "code": "S15",
+        "goal": "1456",
+        "baseline": "未参与",
+        "absent": true,
+        "combo_ok": true,
+        "baseline_ok": true
+      },
+      {
+        "file": "认知课《国庆节到了》-火箭班.docx",
+        "code": "S16",
+        "goal": "123",
+        "baseline": "未参与",
+        "absent": true,
+        "combo_ok": true,
+        "baseline_ok": true
+      },
+      {
+        "file": "认知课《国庆节到了》-火箭班.docx",
+        "code": "S17",
+        "goal": "123",
+        "baseline": "PEE",
+        "absent": false,
+        "combo_ok": true,
+        "baseline_ok": true
+      },
+      {
+        "file": "认知课《国庆节到了》-火箭班.docx",
+        "code": "S18",
+        "goal": "123",
+        "baseline": "PEE",
+        "absent": false,
+        "combo_ok": true,
+        "baseline_ok": true
+      },
+      {
+        "file": "认知课《国庆节到了》-火箭班.docx",
+        "code": "S19",
+        "goal": "123",
+        "baseline": "PEE",
+        "absent": false,
+        "combo_ok": true,
+        "baseline_ok": true
+      },
+      {
+        "file": "认知课《国庆节到了》-火箭班.docx",
+        "code": "S20",
+        "goal": "1456",
+        "baseline": "PPPP",
+        "absent": false,
+        "combo_ok": true,
+        "baseline_ok": true
+      },
+      {
+        "file": "认知课《国庆节到了》-火箭班.docx",
+        "code": "S21",
+        "goal": "124",
+        "baseline": "PPP",
+        "absent": false,
+        "combo_ok": true,
+        "baseline_ok": true
+      },
+      {
+        "file": "认知课《国庆节到了》-火箭班.docx",
+        "code": "S22",
+        "goal": "123",
+        "baseline": "PEE",
+        "absent": false,
+        "combo_ok": true,
+        "baseline_ok": true
+      },
+      {
+        "file": "认知课《国庆节到了》-火箭班.docx",
+        "code": "S23",
+        "goal": "124",
+        "baseline": "PPP",
+        "absent": false,
+        "combo_ok": true,
+        "baseline_ok": true
+      },
+      {
+        "file": "认知课《国庆节到了》-火箭班.docx",
+        "code": "S24",
+        "goal": "123",
+        "baseline": "PEE",
+        "absent": false,
+        "combo_ok": true,
+        "baseline_ok": true
+      },
+      {
+        "file": "认知课《国庆节到了》-火箭班.docx",
+        "code": "S25",
+        "goal": "124",
+        "baseline": "PPE",
+        "absent": false,
+        "combo_ok": true,
+        "baseline_ok": true
+      },
+      {
+        "file": "认知课《国庆节到了》-火箭班.docx",
+        "code": "S26",
+        "goal": "145",
+        "baseline": "PPE",
+        "absent": false,
+        "combo_ok": true,
+        "baseline_ok": true
+      },
+      {
+        "file": "认知课《国庆节到了》-火箭班.docx",
+        "code": "S27",
+        "goal": "124",
+        "baseline": "PPP",
+        "absent": false,
+        "combo_ok": true,
+        "baseline_ok": true
+      },
+      {
+        "file": "认知课《国庆节到了》-火箭班.docx",
+        "code": "S28",
+        "goal": "1456",
+        "baseline": "P     PPP",
+        "absent": false,
+        "combo_ok": true,
+        "baseline_ok": true
+      },
+      {
+        "file": "认知课《国庆节到了》-闪电班.docx",
+        "code": "S29",
+        "goal": "124",
+        "baseline": "PPP",
+        "absent": false,
+        "combo_ok": true,
+        "baseline_ok": true
+      },
+      {
+        "file": "认知课《国庆节到了》-闪电班.docx",
+        "code": "S30",
+        "goal": "1456",
+        "baseline": "PPPP",
+        "absent": false,
+        "combo_ok": true,
+        "baseline_ok": true
+      },
+      {
+        "file": "认知课《国庆节到了》-闪电班.docx",
+        "code": "S31",
+        "goal": "123",
+        "baseline": "P P E",
+        "absent": false,
+        "combo_ok": true,
+        "baseline_ok": true
+      },
+      {
+        "file": "认知课《国庆节到了》-闪电班.docx",
+        "code": "S32",
+        "goal": "124",
+        "baseline": "P P P",
+        "absent": false,
+        "combo_ok": true,
+        "baseline_ok": true
+      },
+      {
+        "file": "认知课《国庆节到了》-闪电班.docx",
+        "code": "S33",
+        "goal": "124",
+        "baseline": "P P E",
+        "absent": false,
+        "combo_ok": true,
+        "baseline_ok": true
+      },
+      {
+        "file": "认知课《国庆节到了》-闪电班.docx",
+        "code": "S34",
+        "goal": "1456",
+        "baseline": "PPPP",
+        "absent": false,
+        "combo_ok": true,
+        "baseline_ok": true
+      },
+      {
+        "file": "认知课《国庆节到了》-闪电班.docx",
+        "code": "S35",
+        "goal": "145",
+        "baseline": "PPP",
+        "absent": false,
+        "combo_ok": true,
+        "baseline_ok": true
+      },
+      {
+        "file": "认知课《国庆节到了》-闪电班.docx",
+        "code": "S36",
+        "goal": "1456",
+        "baseline": "PPPP",
+        "absent": false,
+        "combo_ok": true,
+        "baseline_ok": true
+      },
+      {
+        "file": "认知课《国庆节到了》-闪电班.docx",
+        "code": "S37",
+        "goal": "123",
+        "baseline": "未参与",
+        "absent": true,
+        "combo_ok": true,
+        "baseline_ok": true
+      }
+    ]
+  },
+  "audit": {
+    "available": true,
+    "items_pass": 20,
+    "items_fail": 0,
+    "item_total": 20,
+    "item_pass_rate": 1.0,
+    "files": [
+      "认知课《国庆节到了》-火箭班",
+      "认知课《国庆节到了》-闪电班"
+    ],
+    "verdicts": [
+      "PASS",
+      "PASS"
+    ],
+    "all_pass": true
+  },
+  "generation": {
+    "plans": [
+      {
+        "theme": "国庆节到了",
+        "loadable": true,
+        "title": "认知课《国庆节到了》",
+        "errors": 0,
+        "warnings": 0,
+        "ok": true,
+        "error_sample": [],
+        "steps": 7,
+        "scaffold_per_step": 1.14,
+        "cue_coverage": 1.0,
+        "objectives": 8,
+        "alternatives": 4,
+        "individualized_goals": 3,
+        "duration": 30
+      },
+      {
+        "theme": "我会穿鞋子",
+        "loadable": true,
+        "title": "生活自理课《穿鞋子》",
+        "errors": 0,
+        "warnings": 0,
+        "ok": true,
+        "error_sample": [],
+        "steps": 7,
+        "scaffold_per_step": 1.0,
+        "cue_coverage": 1.0,
+        "objectives": 8,
+        "alternatives": 4,
+        "individualized_goals": 3,
+        "duration": 30
+      },
+      {
+        "theme": "认识秋天的水果",
+        "loadable": true,
+        "title": "认知课《秋天的水果》",
+        "errors": 0,
+        "warnings": 0,
+        "ok": true,
+        "error_sample": [],
+        "steps": 7,
+        "scaffold_per_step": 1.0,
+        "cue_coverage": 1.0,
+        "objectives": 8,
+        "alternatives": 4,
+        "individualized_goals": 3,
+        "duration": 30
+      },
+      {
+        "theme": "跟着音乐做动作",
+        "loadable": true,
+        "title": "粗大动作课《音乐做动作》",
+        "errors": 0,
+        "warnings": 0,
+        "ok": true,
+        "error_sample": [],
+        "steps": 7,
+        "scaffold_per_step": 1.0,
+        "cue_coverage": 1.0,
+        "objectives": 8,
+        "alternatives": 4,
+        "individualized_goals": 3,
+        "duration": 30
+      }
+    ],
+    "loadable": 4,
+    "all_ok": 4
+  },
+  "holdout": {
+    "items": [
+      {
+        "theme": "国庆节到了",
+        "delivered": true,
+        "steps": 7,
+        "objectives": 8,
+        "individualized_goals": 3
+      },
+      {
+        "theme": "我会穿鞋子",
+        "delivered": false,
+        "steps": 7,
+        "objectives": 8,
+        "individualized_goals": 3
+      },
+      {
+        "theme": "认识秋天的水果",
+        "delivered": false,
+        "steps": 7,
+        "objectives": 8,
+        "individualized_goals": 3
+      },
+      {
+        "theme": "跟着音乐做动作",
+        "delivered": false,
+        "steps": 7,
+        "objectives": 8,
+        "individualized_goals": 3
+      }
+    ],
+    "holdout": [
+      "我会穿鞋子",
+      "认识秋天的水果",
+      "跟着音乐做动作"
+    ],
+    "delivered": [
+      "国庆节到了"
+    ]
+  }
+}

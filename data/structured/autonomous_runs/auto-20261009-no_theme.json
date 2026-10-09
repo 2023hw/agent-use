@@ -1,0 +1,49 @@
+{
+  "run_id": "auto-20261009-no_theme",
+  "generated_at": "2026-10-09 11:21:53",
+  "scene": "用例：缺失关键信息（未给主题 → 应主动追问而非编造）",
+  "theme": "",
+  "scenario": "no_theme",
+  "expect": "模型不调用任何工具，直接以文字追问主题（finish + 0 调用）",
+  "provider": "zhipu",
+  "model": "zhipu / glm-4-flash",
+  "mocked": false,
+  "faults": [],
+  "max_steps": 24,
+  "summary": {
+    "stopped_reason": "finish",
+    "n_steps": 1,
+    "tool_calls": 0,
+    "call_sequence": [],
+    "used_tools": [],
+    "unused_tools": [
+      "search_corpus",
+      "get_class_roster",
+      "get_child_profile",
+      "get_previous_baseline",
+      "plan_layering",
+      "draft_objectives",
+      "expand_content",
+      "validate_lesson_plan",
+      "render_docx",
+      "audit_docx"
+    ],
+    "validations": [],
+    "draft_calls": [],
+    "repair_observed": false,
+    "audit": null,
+    "deliverables": [],
+    "success": false,
+    "guard_events": [],
+    "faults": [],
+    "faults_fired": [],
+    "elapsed_s": 2.6,
+    "usage": {
+      "prompt": 2143,
+      "completion": 21,
+      "total": 2164,
+      "steps": 1,
+      "tool_calls": 0
+    }
+  }
+}

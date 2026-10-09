@@ -1,0 +1,4 @@
+# 融合教育幼儿园康复教案生成 Agent —— 运行依赖
+# Python 3.12+（开发环境 3.13）
+python-docx==1.2.0    # docx 渲染与读取（lxml 为其传递依赖，无需单列）
+pydantic==2.13.5      # 教案数据结构模型（Objective / LessonPlan 等）

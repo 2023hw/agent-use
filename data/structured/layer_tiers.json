@@ -1,0 +1,105 @@
+{
+  "source": "13 份范例教案、61 条可归因记录（只用四条规律互不撞车的教案）",
+  "rule": "层 = 组合规律：R+S1+S2 / R+S1+S3 / R+S3+A1 / R+S3+A1+A2",
+  "validation": "各层基线 P 密度 [0.48, 0.56, 0.8, 0.92]，单调递增，分层成立",
+  "derivation": "python scripts/mine_layer_tiers.py",
+  "layer_count": 4,
+  "tiers": [
+    {
+      "level": 1,
+      "name": "高支持层",
+      "support": "身体辅助",
+      "pattern": [
+        "R",
+        "S1",
+        "S2"
+      ],
+      "exemplars": [
+        "123",
+        "134"
+      ],
+      "records": 22,
+      "docs": 10,
+      "p_density": 0.48,
+      "combos": {
+        "123": 21,
+        "134": 1
+      }
+    },
+    {
+      "level": 2,
+      "name": "中支持层",
+      "support": "少量手势辅助",
+      "pattern": [
+        "R",
+        "S1",
+        "S3"
+      ],
+      "exemplars": [
+        "1234",
+        "124",
+        "125",
+        "1346",
+        "135"
+      ],
+      "records": 9,
+      "docs": 6,
+      "p_density": 0.56,
+      "combos": {
+        "124": 9
+      }
+    },
+    {
+      "level": 3,
+      "name": "低支持层",
+      "support": "独立完成",
+      "pattern": [
+        "R",
+        "S3",
+        "A1"
+      ],
+      "exemplars": [
+        "125",
+        "134",
+        "135",
+        "145"
+      ],
+      "records": 17,
+      "docs": 10,
+      "p_density": 0.8,
+      "combos": {
+        "134": 9,
+        "145": 8
+      }
+    },
+    {
+      "level": 4,
+      "name": "泛化层",
+      "support": "独立完成并泛化",
+      "pattern": [
+        "R",
+        "S3",
+        "A1",
+        "A2"
+      ],
+      "exemplars": [
+        "1234",
+        "124",
+        "1245",
+        "125",
+        "1345",
+        "1456",
+        "1458",
+        "156"
+      ],
+      "records": 13,
+      "docs": 4,
+      "p_density": 0.92,
+      "combos": {
+        "1456": 8,
+        "1345": 3,
+        "124": 2
+      }
+    }
+  ]
+}
