@@ -236,7 +236,12 @@ flowchart TD
 
 ### 6.2 本地运行与复现指南
 
+代码仓库（可访问）：<https://github.com/2023hw/agent-use>
+
 ```bash
+# 0. 获取代码
+git clone https://github.com/2023hw/agent-use.git && cd agent-use
+
 # 1. 安装依赖（Python 3.12+）
 pip install -r requirements.txt
 

@@ -9,6 +9,8 @@
 ## 快速开始
 
 ```bash
+git clone https://github.com/2023hw/agent-use.git
+cd agent-use
 pip install -r requirements.txt          # Python 3.12+
 cp .env.example .env                      # 填入 ZHIPU_API_KEY（智谱免费档）
 python scripts/lesson_docx.py doctor      # 环境自检
