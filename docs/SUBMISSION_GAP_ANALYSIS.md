@@ -17,8 +17,21 @@
 | P0-4 | Trace 落盘 `data/trace/*.jsonl` | ✅ **2026-10-09 完成** | `src/lpa/trace.py`：`StepLogger` 运行中**实时增量**写 jsonl（崩溃不丢），跑完 `save_trace()` 全卷重写 + 出人可读 `.md`；字段 step/thought/actions/observations/elapsed_ms/tokens；证据 `data/trace/auto-20261009-scene{A,B}.{jsonl,md}` |
 | P0-5 | 提示注入防御 | ✅ **2026-10-09 完成** | 三层护栏落地：① System Prompt 行为边界（agent.py）；② 输入侧正则短路（`src/lpa/guard.py`，3 类 13 模式，命中即拒、零模型调用）；③ 输出侧泄漏后验（真名清单 + 34 词黑名单 + 人名串结构，命中即替换收尾文本）。实测：明显注入 / 超范围请求**零调用秒级拦截**；社工式委婉刺探（无敏感词、绕过正则）被模型层按边界拒绝；离线自测 27 项护栏用例全过（含零误伤红线） |
 | P0-6 | 三用例实跑 + 截图 | ✅ **2026-10-09 完成** | 标准成功（`sceneA`）/ 复杂模糊（`no_theme` 主动追问 + `sceneB-think` 语料未命中自主换词降级）/ 校验自愈（`sceneB`、`sceneB-think`）；模块 4 补「超范围请求」（`out_of_scope` 护栏拦截）与「注入攻击」（`inject` 输入侧拦截、`inject_social` 模型层拒绝）。全部 Trace 在 `data/trace/`，报告 `AUTONOMOUS_RUN.md`（7 次运行） |
-| P1-1 … P1-8 | 见第四节 | ⬜ | — |
-| P2-1 … P2-7 | 见第四节 | ⬜ | — |
+| P1-1 拓扑图 | ✅ 2026-10-09 | `docs/ARCHITECTURE.md`（Mermaid + ASCII + 决策分支对照表） |
+| P1-2 System Prompt 独立文件+拆解 | ✅ 2026-10-09 | `prompts/agent_system.md`（运行时加载，代码内嵌同文回退）；拆解在 `ARCHITECTURE.md` §3 |
+| P1-3 记忆机制成文 | ✅ 2026-10-09 | `ARCHITECTURE.md` §4 + 报告 §2.5 |
+| P1-4 选型依据+实测 | ✅ 2026-10-09 | 实测早有（TOOL_CALLING_PROBE 9/9）；四方面依据成文于报告 §2.2；思考链档 `zhipu45` 已落地 |
+| P1-5 异常用例实测 | ✅ 2026-10-09 | `scripts/api_fault_probe.py` 5 用例全 PASS → `API_FAULT_PROBE.md`（429/500/400/超时/Agent层优雅终止）；agent_run 补 `except LLMError` 兜底（exit=3） |
+| P1-6 护栏设计成文 | ✅ 2026-10-09 | 报告 §4.2（三层护栏 + Human-in-the-loop） |
+| P1-7 时延与成本汇总 | ✅ 2026-10-09 | `scripts/cost_summary.py` → `COST_SUMMARY.md`（7 次运行累计 12.1 万 tokens，免费档 0 元） |
+| P1-8 踩坑四段式 | ✅ 2026-10-09 | 报告 §5.1（4 个案例：泛化 0.83→0.11 / 消融污染 / 属性名吞错 / 思考链补全） |
+| P2-1 README | ✅ 2026-10-09 | `README.md`（快速开始/结构/命令表/隐私声明） |
+| P2-2 requirements.txt | ✅ 2026-10-09 | 仅 2 个直接依赖（python-docx 1.2.0 / pydantic 2.13.5），已核对无直接 import 遗漏 |
+| P2-3 .env.example | ✅ 2026-10-09 | 主 key 必填 + 3 个可选 provider + 覆盖开关注释 |
+| P2-4 git 仓库 | 🟡 本地已完成 | `git init` + 首个 commit（189 文件；`.env`/`data/private`/分组密钥已验证未入库）；**推送待用户提供 GitHub/Gitee 远程地址** |
+| P2-5 清理垃圾文件 | ✅ 2026-10-09 | 6 个调试残留移入 `data/_archive/junk-cleanup-20261009/`（移动非删除） |
+| P2-6 报告成文+PDF | 🟡 草稿完成 | `docs/REPORT_DRAFT.md`（按模板六节填齐，约 10 页量）；**待：学号/姓名/日期填入、§3.3 补 3 张截图、导出 PDF 并按规范命名** |
+| P2-7 确认截止日期 | ⬜ 待用户 | 通知原文该字段是占位符，需向课程方确认 |
 
 > **P0-1 的一个重要副产品：`glm-4-flash` 的多轮工具调用能力实测通过**
 > （3 次运行 × 每次 3 个工具调用 = 9/9，序列与参数全对，5–7 秒/次）。
