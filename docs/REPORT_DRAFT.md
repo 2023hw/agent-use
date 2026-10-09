@@ -161,9 +161,27 @@ flowchart TD
 ### 3.3 运行凭据截图（Trace / 交互日志）
 
 * 每次运行产生两份可核验文件：`data/trace/<run_id>.jsonl`（每步一行 JSON：step/thought/actions/observations/elapsed_ms/tokens，运行中实时增量写入，崩溃不丢）与同名 `.md`（人可读 `[Thought]/[Action]/[Observation]` 排版）。
-* 汇总报告 `data/structured/AUTONOMOUS_RUN.md`：7 次运行的场景/模型/步数/调用数/校验轨迹/终检结论一览，可由 `lesson_docx.py auto --report-only` 随时重排，非手工编写。
+* 汇总报告 `data/structured/AUTONOMOUS_RUN.md`：8 次运行的场景/模型/步数/调用数/校验轨迹/终检结论一览，可由 `lesson_docx.py auto --report-only` 随时重排，非手工编写。
 
-*（提交 PDF 时在此处粘贴：① 终端运行截图；② sceneB 的 `.md` Trace 片段截图；③ AUTONOMOUS_RUN 汇总表截图）*
+*（§3.3 三张截图已齐备：① 终端运行 ✅；② Trace 片段 ✅；③ 汇总表 ✅ —— 导出 PDF 时图片随 Markdown 一并带入）*
+
+**截图 ①：终端真实运行——校验失败 → 自主修复 → 复检通过全链路**（`auto-20261009-154025-bad_objective`，glm-4-flash，12 步 / 11 次工具调用 / 217s）
+
+![终端运行：注入坏目标后 Agent 自主修复闭环](assets/shot1-terminal-repair-loop.png)
+
+*画面要点：顶部为实际输入的命令；中部时间线第 6 步 `validate_lesson_plan` 返回 `✗ fatal_count: 1`（目标缺少可观测动词）→ 第 7 步 Agent 自主携带 `revision_hint` 重调 `draft_objectives` 修复 → 第 9 步复检 `passed: true` → 第 11 步终检 `exit_code: 0`；底部结论行「校验轨迹：✗1致命 → ✓」「完整闭环 ✅」。*
+
+**截图 ②：Trace 片段——思考链版修复过程**（`data/trace/auto-20261009-sceneB-think.md`，glm-4.5-flash）
+
+![Trace 片段：[Thought]/[Action]/[Observation] 完整留痕](assets/shot2-trace-think-repair.png)
+
+*画面要点（约第 64–76 行）：`[Observation] passed: false, fatal: 目标缺少可观测动词` → `[Action] draft_objectives(revision_hint: 换成拍手/指认/说出这类动词)` → `[Observation] passed: true` → `[Thought] 太好了！硬校验通过了，现在可以渲染成docx交付件了。`——三种标记同屏，证明思考链非编造。*
+
+**截图 ③：运行汇总表**（`data/structured/AUTONOMOUS_RUN.md`，8 次运行）
+
+![AUTONOMOUS_RUN 汇总表：8 次运行一览](assets/shot3-autonomous-run-table.png)
+
+*画面要点：「二、运行总览」表格——正常/修复/追问/明显注入/社工注入/超范围等场景的运行各一行，含步数、工具调用数、校验轨迹、终检与结论（护栏场景显示「护栏拦截 🛡」）。*
 
 ---
 
@@ -267,4 +285,4 @@ python scripts/test_llm.py && python scripts/agent_orch_selftest.py
 
 ---
 
-*（导出要求：正文 6–12 页；文件名 `学号_姓名_Agent项目名称.pdf`；§3.3 处需补贴 3 张截图）*
+*（导出要求：正文 6–12 页；文件名 `学号_姓名_Agent项目名称.pdf`；§3.3 三张截图已嵌入 docs/assets/）*

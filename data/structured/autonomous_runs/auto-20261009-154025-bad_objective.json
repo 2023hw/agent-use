@@ -1,0 +1,122 @@
+{
+  "run_id": "auto-20261009-154025-bad_objective",
+  "generated_at": "2026-10-09 15:44:02",
+  "scene": "修复闭环演示（注入坏目标）",
+  "theme": "国庆节到了",
+  "scenario": "",
+  "expect": "",
+  "provider": "zhipu",
+  "model": "zhipu / glm-4-flash",
+  "mocked": false,
+  "faults": [
+    "bad_objective"
+  ],
+  "max_steps": 24,
+  "summary": {
+    "stopped_reason": "finish",
+    "n_steps": 12,
+    "tool_calls": 11,
+    "call_sequence": [
+      "get_class_roster",
+      "plan_layering",
+      "get_previous_baseline",
+      "draft_objectives",
+      "expand_content",
+      "validate_lesson_plan",
+      "draft_objectives",
+      "expand_content",
+      "validate_lesson_plan",
+      "render_docx",
+      "audit_docx"
+    ],
+    "used_tools": [
+      "get_class_roster",
+      "plan_layering",
+      "get_previous_baseline",
+      "draft_objectives",
+      "expand_content",
+      "validate_lesson_plan",
+      "render_docx",
+      "audit_docx"
+    ],
+    "unused_tools": [
+      "search_corpus",
+      "get_child_profile"
+    ],
+    "validations": [
+      {
+        "step": 6,
+        "passed": false,
+        "fatal_count": 1,
+        "fatal": [
+          "[致命] OBJ_NOT_OBSERVABLE: 目标缺少可观测动词：能进行集体律动活动，感受节日的欢乐气氛"
+        ]
+      },
+      {
+        "step": 9,
+        "passed": true,
+        "fatal_count": 0,
+        "fatal": []
+      }
+    ],
+    "draft_calls": [
+      {
+        "step": 4,
+        "tool": "draft_objectives",
+        "revision_hint": ""
+      },
+      {
+        "step": 5,
+        "tool": "expand_content",
+        "revision_hint": ""
+      },
+      {
+        "step": 7,
+        "tool": "draft_objectives",
+        "revision_hint": "目标缺少可观测动词：能进行集体律动活动，感受节日的欢乐气氛"
+      },
+      {
+        "step": 8,
+        "tool": "expand_content",
+        "revision_hint": ""
+      }
+    ],
+    "repair_observed": true,
+    "audit": {
+      "step": 11,
+      "passed": true,
+      "exit_code": 0,
+      "fail_items": []
+    },
+    "deliverables": [
+      {
+        "path": "C:\\Users\\17093\\WorkBuddy\\2026-09-28-10-57-57\\lessonplan-agent\\data\\_agent_runs\\auto-20261009-154025-bad_objective\\认知课《国庆节到了》-火箭班.docx",
+        "size": 23633,
+        "class": "火箭班",
+        "n_children": 28
+      },
+      {
+        "path": "C:\\Users\\17093\\WorkBuddy\\2026-09-28-10-57-57\\lessonplan-agent\\data\\_agent_runs\\auto-20261009-154025-bad_objective\\认知课《国庆节到了》-闪电班.docx",
+        "size": 19845,
+        "class": "闪电班",
+        "n_children": 9
+      }
+    ],
+    "success": true,
+    "guard_events": [],
+    "faults": [
+      "bad_objective"
+    ],
+    "faults_fired": [
+      "bad_objective"
+    ],
+    "elapsed_s": 217.3,
+    "usage": {
+      "prompt": 66636,
+      "completion": 402,
+      "total": 67038,
+      "steps": 12,
+      "tool_calls": 11
+    }
+  }
+}
