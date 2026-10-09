@@ -28,7 +28,7 @@
 | P2-1 README | ✅ 2026-10-09 | `README.md`（快速开始/结构/命令表/隐私声明） |
 | P2-2 requirements.txt | ✅ 2026-10-09 | 仅 2 个直接依赖（python-docx 1.2.0 / pydantic 2.13.5），已核对无直接 import 遗漏 |
 | P2-3 .env.example | ✅ 2026-10-09 | 主 key 必填 + 3 个可选 provider + 覆盖开关注释 |
-| P2-4 git 仓库 | 🟡 本地已完成 | `git init` + 首个 commit（189 文件；`.env`/`data/private`/分组密钥已验证未入库）；**推送待用户提供 GitHub/Gitee 远程地址** |
+| P2-4 git 仓库 | 🟡 差最后一步推送 | `git init` + 2 个 commit（189 文件；`.env`/`data/private`/分组密钥已验证未入库）；远程已配 `https://github.com/2023hw/agent-use.git`；**待用户在本机终端跑 `git push -u origin main` 完成首次凭据认证**（无交互终端弹不出登录框） |
 | P2-5 清理垃圾文件 | ✅ 2026-10-09 | 6 个调试残留移入 `data/_archive/junk-cleanup-20261009/`（移动非删除） |
 | P2-6 报告成文+PDF | 🟡 草稿完成 | `docs/REPORT_DRAFT.md`（按模板六节填齐，约 10 页量）；**待：学号/姓名/日期填入、§3.3 补 3 张截图、导出 PDF 并按规范命名** |
 | P2-7 确认截止日期 | ⬜ 待用户 | 通知原文该字段是占位符，需向课程方确认 |
