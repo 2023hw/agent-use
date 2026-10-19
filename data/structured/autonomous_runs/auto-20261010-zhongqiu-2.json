@@ -1,0 +1,54 @@
+{
+  "run_id": "auto-20261010-zhongqiu-2",
+  "generated_at": "2026-10-10 11:18:13",
+  "scene": "正常自主编排",
+  "theme": "中秋节",
+  "scenario": "",
+  "expect": "",
+  "provider": "zhipu",
+  "model": "zhipu / glm-4-flash",
+  "mocked": false,
+  "faults": [],
+  "max_steps": 24,
+  "summary": {
+    "stopped_reason": "finish",
+    "n_steps": 4,
+    "tool_calls": 3,
+    "call_sequence": [
+      "get_class_roster",
+      "plan_layering",
+      "search_corpus"
+    ],
+    "used_tools": [
+      "get_class_roster",
+      "plan_layering",
+      "search_corpus"
+    ],
+    "unused_tools": [
+      "get_child_profile",
+      "get_previous_baseline",
+      "draft_objectives",
+      "expand_content",
+      "validate_lesson_plan",
+      "render_docx",
+      "audit_docx"
+    ],
+    "validations": [],
+    "draft_calls": [],
+    "repair_observed": false,
+    "audit": null,
+    "deliverables": [],
+    "success": false,
+    "guard_events": [],
+    "faults": [],
+    "faults_fired": [],
+    "elapsed_s": 21.0,
+    "usage": {
+      "prompt": 10575,
+      "completion": 431,
+      "total": 11006,
+      "steps": 4,
+      "tool_calls": 3
+    }
+  }
+}
